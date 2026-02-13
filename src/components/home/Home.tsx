@@ -1,10 +1,9 @@
 import Image from "next/image";
-import Link from "next/link";
 
 const Hero = () => {
   return (
     <div className="relative">
-      <Image alt="" fill src={"/mariela1.jpg"} />
+      <Image alt="" fill src={"/hero.png"} className="object-cover" />
       <div className="relative py-[50%] md:py-[30%] lg:py-[25%] xl:py-[15%] bg-black/35 px-4">
         <div className="container mx-auto">
           <div className="max-w-xl ml-auto">

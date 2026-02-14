@@ -36,7 +36,7 @@ const Section3 = () => {
           </div>
 
           <div className="hidden lg:block w-full lg:ml-auto lg:max-w-2xl">
-            <div className=" bg-gradient-to-r from-yellow-500 via-amber-500 to-teal-600 p-6 text-white shadow-lg">
+            <div className=" bg-linear-to-r from-yellow-500 via-amber-500 to-teal-600 p-6 text-white shadow-lg">
               <div className="flex flex-col lg:flex-row items-center gap-5">
                 <div className="space-y-1">
                   <p className="text-sm">General</p>

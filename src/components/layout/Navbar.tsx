@@ -1,9 +1,27 @@
-import React from "react";
+"use client";
+
+import React, { useEffect, useState } from "react";
 import Image from "next/image";
 
 const Navbar = () => {
+  const [isScrolled, setIsScrolled] = useState(false);
+
+  useEffect(() => {
+    const onScroll = () => {
+      setIsScrolled(window.scrollY > 8);
+    };
+
+    onScroll();
+    window.addEventListener("scroll", onScroll, { passive: true });
+    return () => window.removeEventListener("scroll", onScroll);
+  }, []);
+
   return (
-    <header className="fixed top-0 z-10 w-full py-5">
+    <header
+      className={`fixed top-0 z-10 w-full py-1 transition-all duration-300 ${
+        isScrolled ? "bg-black/40 backdrop-blur-md" : "bg-transparent"
+      }`}
+    >
       <div className="">
         <div className="mx-auto flex container items-center justify-between px-4 py-2 text-xs font-medium text-brand-primary sm:px-6 lg:px-8">
           <div className="hidden flex-wrap items-center gap-4 md:flex">
@@ -85,7 +103,7 @@ const Navbar = () => {
           <Image
             src="/logo.png"
             alt="All Star Finance Group"
-            width={220}
+            width={200}
             height={64}
             className="h-12 w-auto md:h-14"
             priority

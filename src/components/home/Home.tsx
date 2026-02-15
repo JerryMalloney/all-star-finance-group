@@ -1,10 +1,11 @@
 import Image from "next/image";
+import EmailForm from "../shared/EmailForm";
 
 const Hero = () => {
   return (
     <div className="relative">
       <Image alt="" fill src={"/hero.png"} className="object-cover" />
-      <div className="relative py-[50%] md:py-[30%] lg:py-[25%] xl:py-[15%] bg-black/35 px-4">
+      <div className="relative py-[40%] md:py-[30%] lg:py-[25%] xl:py-[10%] bg-black/35 px-4">
         <div className="container mx-auto">
           <div className="max-w-xl ml-auto">
             <div className="bg-brand-primary h-2 wfull mb-2"></div>
@@ -16,6 +17,7 @@ const Hero = () => {
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque
                 vel quam venenatis, posuere turpis vitae, aliquam nisi.
               </p>
+              <EmailForm />
             </div>
           </div>
         </div>

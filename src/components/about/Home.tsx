@@ -1,5 +1,4 @@
 import Image from "next/image";
-import EmailForm from "../shared/EmailForm";
 
 const Hero = () => {
   return (

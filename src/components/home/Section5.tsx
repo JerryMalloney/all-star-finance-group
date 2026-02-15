@@ -47,12 +47,12 @@ const Section5 = () => {
     <section className="relative bg-white overflow-hidden">
       <div className="hidden lg:block absolute left-0 top-0 h-full w-[35%] bg-[#0b146e]" />
       <div className="hidden lg:block absolute right-0 top-0 h-full w-[65%] bg-[#f2b705]" />
-      <div className="relative z-10 max-w-7xl mx-auto px-4 py-16 lg:py-24">
+      <div className="relative z-2 max-w-7xl mx-auto px-4 py-16 lg:py-24">
         <div className="grid grid-cols-1 lg:grid-cols-2 items-center gap-10">
           <div className="rounded-xl bg-[#0b146e] lg:bg-transparent px-6 py-10 lg:px-12">
             <div className="max-w-md">
               <div className="relative rounded-2xl bg-white p-6 shadow-2xl">
-                <div className="absolute -top-8 left-5">
+                <div className="absolute -top-8 left-5 ">
                   <div className="relative h-16 w-16 overflow-hidden rounded-full">
                     <Image
                       alt={active.name}

@@ -52,7 +52,7 @@ const cards = [
   },
 ];
 
-const Section4 = () => {
+const Services = () => {
   return (
     <section className="bg-white">
       <div className="container mx-auto px-4 py-16 lg:py-24">
@@ -87,7 +87,7 @@ const Section4 = () => {
                 </p>
               </div>
               <div className="p-2">
-                <div className="bg-blue-900 px-6 py-3 text-center text-sm font-semibold text-white">
+                <div className="bg-brand-secondary px-6 py-3 text-center text-sm font-semibold text-white">
                   Ver más
                 </div>
               </div>
@@ -99,4 +99,4 @@ const Section4 = () => {
   );
 };
 
-export default Section4;
+export default Services;

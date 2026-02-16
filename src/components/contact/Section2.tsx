@@ -9,8 +9,8 @@ const Section2 = () => {
         height={500}
         width="100%"
         mode="place"
-        zoom="9"
-        q="seattle washington"
+        zoom="14"
+        q="8095 NW 8TH ST MIAMI FLORIDA 33126"
       />
     </div>
   );

@@ -13,18 +13,29 @@ const Section1 = () => {
               <h2 className="text-4xl font-semibold">Contact Information</h2>
               <div className="text-lg">
                 <p className="font-bold">Email:</p>
-                <p>test@test.com</p>
+                <p>
+                  <a
+                    href="mailto:lmariela1977@gmail.com"
+                    className="text-white transition hover:text-white/80"
+                  >
+                    lmariela1977@gmail.com
+                  </a>
+                </p>
               </div>
               <div className="text-lg">
                 <p className="font-bold">Phone:</p>
                 <p>
                   <a
-                    href="tel:+"
+                    href="tel:+17866033503"
                     className="text-white transition hover:text-white/80"
                   >
-                    1+ (000) 000-0000
+                    +1 (786) 603-3503
                   </a>
                 </p>
+              </div>
+              <div className="text-lg">
+                <p className="font-bold">Location:</p>
+                <p>8095 NW 8TH ST MIAMI FLORIDA 33126</p>
               </div>
             </div>
             <div>

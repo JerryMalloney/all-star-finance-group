@@ -2,13 +2,8 @@ import Image from "next/image";
 import Link from "next/link";
 import React from "react";
 
-const companyLinks = [
-  "Lorem ipsum",
-  "Dolor sit",
-  "Amet consectetur",
-  "Adipiscing elit",
-];
-const moreLinks = ["Lorem amet", "Ipsum dolor"];
+const companyLinks = ["Home", "About us", "Seguros", "Impuestos", "Contact"];
+const moreLinks = ["Email us", "Call us", "Visit us"];
 
 const Footer = () => {
   return (
@@ -28,21 +23,45 @@ const Footer = () => {
             </Link>
 
             <p className="max-w-xl text-sm leading-8 text-white/70 sm:text-base">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              8095 NW 8TH ST MIAMI FLORIDA 33126
             </p>
+
+            <div className="space-y-2 text-sm text-white/80 sm:text-base">
+              <a
+                className="block transition hover:text-white"
+                href="mailto:lmariela1977@gmail.com"
+              >
+                lmariela1977@gmail.com
+              </a>
+              <a
+                className="block transition hover:text-white"
+                href="tel:+17866033503"
+              >
+                +1 (786) 603-3503
+              </a>
+            </div>
           </div>
 
           <div className="grid grid-cols-2 gap-8 sm:gap-12 lg:justify-self-end">
             <div>
               <h3 className="text-xl font-semibold tracking-tight">
-                Lorem ipsum
+                Navigation
               </h3>
               <ul className="mt-7 space-y-4">
                 {companyLinks.map((item) => (
                   <li key={item}>
                     <Link
-                      href="#"
+                      href={
+                        item === "Home"
+                          ? "/"
+                          : item === "About us"
+                          ? "/about"
+                          : item === "Seguros"
+                          ? "/services"
+                          : item === "Impuestos"
+                          ? "/impuestos"
+                          : "/contact"
+                      }
                       className="text-base text-white/80 transition hover:text-white"
                     >
                       {item}
@@ -54,17 +73,25 @@ const Footer = () => {
 
             <div>
               <h3 className="text-xl font-semibold tracking-tight">
-                Dolor sit
+                Contact
               </h3>
               <ul className="mt-7 space-y-4">
                 {moreLinks.map((item) => (
                   <li key={item}>
-                    <Link
-                      href="#"
+                    <a
+                      href={
+                        item === "Email us"
+                          ? "mailto:lmariela1977@gmail.com"
+                          : item === "Call us"
+                          ? "tel:+17866033503"
+                          : "https://maps.google.com/?q=8095+NW+8TH+ST+MIAMI+FLORIDA+33126"
+                      }
+                      target={item === "Visit us" ? "_blank" : undefined}
+                      rel={item === "Visit us" ? "noreferrer" : undefined}
                       className="text-base text-white/80 transition hover:text-white"
                     >
                       {item}
-                    </Link>
+                    </a>
                   </li>
                 ))}
               </ul>

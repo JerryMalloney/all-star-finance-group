@@ -1,16 +1,68 @@
 "use client";
 
-import React from "react";
 import { SubmitHandler, useForm } from "react-hook-form";
 import { toast } from "sonner";
 
 type Inputs = {
   fullName: string;
   phone: string;
-  email: string;
+  state: string;
   services: string;
   message: string;
 };
+
+const usaStates = [
+  "Alabama",
+  "Alaska",
+  "Arizona",
+  "Arkansas",
+  "California",
+  "Colorado",
+  "Connecticut",
+  "Delaware",
+  "Florida",
+  "Georgia",
+  "Hawaii",
+  "Idaho",
+  "Illinois",
+  "Indiana",
+  "Iowa",
+  "Kansas",
+  "Kentucky",
+  "Louisiana",
+  "Maine",
+  "Maryland",
+  "Massachusetts",
+  "Michigan",
+  "Minnesota",
+  "Mississippi",
+  "Missouri",
+  "Montana",
+  "Nebraska",
+  "Nevada",
+  "New Hampshire",
+  "New Jersey",
+  "New Mexico",
+  "New York",
+  "North Carolina",
+  "North Dakota",
+  "Ohio",
+  "Oklahoma",
+  "Oregon",
+  "Pennsylvania",
+  "Rhode Island",
+  "South Carolina",
+  "South Dakota",
+  "Tennessee",
+  "Texas",
+  "Utah",
+  "Vermont",
+  "Virginia",
+  "Washington",
+  "West Virginia",
+  "Wisconsin",
+  "Wyoming",
+];
 
 type EmailFormProps = {
   className?: string;
@@ -77,13 +129,21 @@ const EmailForm = ({ className = "" }: EmailFormProps) => {
         </div>
 
         <div className="w-full">
-          <input
-            className="block w-full  border rounded shadow py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white bg-white text-black"
-            id="email"
-            placeholder="Email Adress"
-            type="email"
-            {...register("email")}
-          />
+          <select
+            id="state"
+            className="block w-full border rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white bg-white text-gray-500 shadow"
+            defaultValue=""
+            {...register("state")}
+          >
+            <option value="" disabled>
+              State
+            </option>
+            {usaStates.map((state) => (
+              <option key={state} value={state}>
+                {state}
+              </option>
+            ))}
+          </select>
         </div>
 
         <div className="w-full">
@@ -96,10 +156,9 @@ const EmailForm = ({ className = "" }: EmailFormProps) => {
             <option value="" disabled>
               Services
             </option>
-            <option value="tax-planning">Tax Planning</option>
-            <option value="bookkeeping">Bookkeeping</option>
-            <option value="consulting">Consulting</option>
-            <option value="other">Other</option>
+            <option value="migracion">Migracion</option>
+            <option value="seguros">Seguros</option>
+            <option value="taxes">Taxes</option>
           </select>
         </div>
 

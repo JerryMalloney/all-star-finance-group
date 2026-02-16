@@ -2,6 +2,7 @@
 
 import React, { useEffect, useState } from "react";
 import Image from "next/image";
+import Link from "next/link";
 
 const Navbar = () => {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -98,7 +99,7 @@ const Navbar = () => {
       </div>
 
       <div className="mx-auto flex container items-center justify-between px-4 py-4 sm:px-6 lg:px-8">
-        <a className="flex items-center gap-3" href="#">
+        <Link className="flex items-center gap-3" href="/">
           <span className="sr-only">All Star Finance Group</span>
           <Image
             src="/logo.png"
@@ -108,41 +109,30 @@ const Navbar = () => {
             className="h-12 w-auto md:h-14"
             priority
           />
-        </a>
+        </Link>
 
         <nav aria-label="Primary" className="hidden items-center gap-8 md:flex">
-          <a
+          <Link
             className="text-sm font-medium text-white transition hover:text-brand-primary"
-            href="#"
+            href="/"
           >
             Home
-          </a>
-          <a
+          </Link>
+          <Link
             className="text-sm font-medium text-white transition hover:text-brand-primary"
-            href="#"
+            href="/about"
           >
             About us
-          </a>
-          <button
+          </Link>
+          <Link
             className="group inline-flex items-center gap-1 text-sm font-medium text-white transition hover:text-brand-primary"
-            type="button"
+            href="/services"
           >
             Services
-            <svg
-              className="h-3 w-3 text-white transition group-hover:text-brand-primary"
-              viewBox="0 0 20 20"
-              fill="currentColor"
-            >
-              <path
-                fillRule="evenodd"
-                d="M5.23 7.21a.75.75 0 0 1 1.06.02L10 10.94l3.71-3.71a.75.75 0 1 1 1.06 1.06l-4.24 4.24a.75.75 0 0 1-1.06 0L5.21 8.29a.75.75 0 0 1 .02-1.08Z"
-                clipRule="evenodd"
-              />
-            </svg>
-          </button>
+          </Link>
           <a
             className="text-sm font-medium text-white transition hover:text-brand-primary"
-            href="#"
+            href="mailto:example@example.com"
           >
             Contacts
           </a>

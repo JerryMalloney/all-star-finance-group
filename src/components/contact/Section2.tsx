@@ -5,7 +5,7 @@ const Section2 = () => {
   return (
     <div className="">
       <GoogleMapsEmbed
-        apiKey={process.env.MAPKEY!}
+        apiKey={process.env.MAPKEY || ""}
         height={500}
         width="100%"
         mode="place"

@@ -3,52 +3,52 @@ import React from "react";
 
 const cards = [
   {
+    title: "Seguros de Salud",
+    description:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum.",
+    href: "/services/seguros-de-salud",
+  },
+  {
     title: "Poliza de Seguros Suplementarios",
     description:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum.",
-    href: "/servicios/suplementarios",
+    href: "/services/poliza-de-seguros-suplementarios",
   },
   {
-    title: "Seguro de Vida y Salud",
+    title: "Seguros de Vida y Gastos Finales",
     description:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum.",
-    href: "/servicios/vida-salud",
+    href: "/services/seguros-de-vida-y-gastos-finales",
   },
   {
-    title: "Seguro de Auto",
+    title: "Seguros de Accidente",
     description:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum.",
-    href: "/servicios/auto",
+    href: "/services/seguros-de-accidente",
   },
   {
-    title: "Seguro de Hogar",
+    title: "Seguros Dentales",
     description:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum.",
-    href: "/servicios/hogar",
+    href: "/services/seguros-dentales",
   },
   {
-    title: "Seguro Comercial",
+    title: "Seguros de Automoviles",
     description:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum.",
-    href: "/servicios/comercial",
+    href: "/services/seguros-de-automoviles",
   },
   {
-    title: "Seguro de Responsabilidad",
+    title: "Servicios de Taxes",
     description:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum.",
-    href: "/servicios/responsabilidad",
+    href: "/services/servicios-de-taxes",
   },
   {
-    title: "Seguro de Viaje",
+    title: "Gastos Finales",
     description:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum.",
-    href: "/servicios/viaje",
-  },
-  {
-    title: "Seguro Dental",
-    description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum.",
-    href: "/servicios/dental",
+    href: "/services/gastos-finales",
   },
 ];
 

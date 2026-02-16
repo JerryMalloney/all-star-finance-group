@@ -16,22 +16,22 @@ const Section3 = () => {
               <p className="text-3xl font-semibold">
                 300<span className="text-brand-primary font-bold">+</span>
               </p>
-              <p className="text-sm text-white/80">Happy</p>
-              <p className="text-sm text-white/80">Client</p>
+              <p className="text-sm text-white/80">Clientes</p>
+              <p className="text-sm text-white/80">Atendidos</p>
             </div>
             <div>
               <p className="text-3xl font-semibold">
                 900<span className="text-brand-primary font-bold">+</span>
               </p>
-              <p className="text-sm text-white/80">Amazing</p>
-              <p className="text-sm text-white/80">Projects</p>
+              <p className="text-sm text-white/80">Asesorías</p>
+              <p className="text-sm text-white/80">Completadas</p>
             </div>
             <div>
               <p className="text-3xl font-semibold">
                 20<span className="text-brand-primary font-bold">+</span>
               </p>
-              <p className="text-sm text-white/80">Awards</p>
-              <p className="text-sm text-white/80">Winning</p>
+              <p className="text-sm text-white/80">Años de</p>
+              <p className="text-sm text-white/80">Experiencia</p>
             </div>
           </div>
 
@@ -39,21 +39,20 @@ const Section3 = () => {
             <div className=" bg-linear-to-r from-yellow-500 via-amber-500 to-teal-600 p-6 text-white shadow-lg">
               <div className="flex flex-col lg:flex-row items-center gap-5">
                 <div className="space-y-1">
-                  <p className="text-sm">General</p>
-                  <p className="text-lg font-semibold">Project</p>
+                  <p className="text-sm">Asesoría</p>
+                  <p className="text-lg font-semibold">Especializada</p>
                 </div>
                 <div className="">
                   <div className="flex items-center gap-1">
                     <p className="text-3xl font-semibold">25</p>
-                    <p className="text-sm text-white/90">Years</p>
+                    <p className="text-sm text-white/90">Años</p>
                   </div>
-                  <p className="text-lg text-white/90 font-bold">Operated</p>
+                  <p className="text-lg text-white/90 font-bold">Sirviendo Miami</p>
                 </div>
                 <p className="text-sm text-white/90 leading-relaxed lg:flex-1">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                  Aenean commodo ligula eget dolor. Aenean massa. Cum sociis
-                  natoque penatibus et magnis dis parturient montes, nascetur
-                  ridiculus mus.
+                  En All Start Finance Group LLC evaluamos tus necesidades,
+                  comparamos coberturas y te explicamos cada opción para que
+                  elijas el seguro adecuado sin complicaciones.
                 </p>
               </div>
             </div>

@@ -5,49 +5,49 @@ const cards = [
   {
     title: "Seguros de Salud",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum.",
+      "Opciones de cobertura médica para individuos y familias en Miami, con acompañamiento para elegir el plan correcto.",
     href: "/services/seguros-de-salud",
   },
   {
     title: "Poliza de Seguros Suplementarios",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum.",
+      "Complementa tu plan principal con coberturas adicionales para accidentes, hospitalización u otras necesidades.",
     href: "/services/poliza-de-seguros-suplementarios",
   },
   {
     title: "Seguros de Vida y Gastos Finales",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum.",
+      "Protege a tu familia en el futuro con pólizas de vida y gastos finales adaptadas a tu presupuesto.",
     href: "/services/seguros-de-vida-y-gastos-finales",
   },
   {
     title: "Seguros de Accidente",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum.",
+      "Cobertura para imprevistos y lesiones accidentales, ideal para reforzar tu seguridad financiera.",
     href: "/services/seguros-de-accidente",
   },
   {
     title: "Seguros Dentales",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum.",
+      "Planes dentales para cuidado preventivo y tratamientos, con alternativas para adultos y familias.",
     href: "/services/seguros-dentales",
   },
   {
     title: "Seguros de Automoviles",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum.",
+      "Encuentra pólizas de auto en Miami con cobertura confiable, precios competitivos y asesoría clara.",
     href: "/services/seguros-de-automoviles",
   },
   {
     title: "Servicios de Taxes",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum.",
+      "Asistencia en servicios de taxes para complementar tu planificación financiera con un enfoque práctico.",
     href: "/services/servicios-de-taxes",
   },
   {
     title: "Gastos Finales",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum.",
+      "Prepara hoy la tranquilidad de mañana con soluciones de gastos finales pensadas para tu familia.",
     href: "/services/gastos-finales",
   },
 ];

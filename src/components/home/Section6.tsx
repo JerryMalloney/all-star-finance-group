@@ -14,17 +14,14 @@ const Section6 = () => {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 lg:gap-16 items-start">
           <div className="max-w-lg space-y-6">
             <h2 className="text-3xl sm:text-4xl font-semibold text-slate-900 leading-tight">
-              Lorem ipsum dolor
+              Preguntas frecuentes
               <br />
-              sit amet
+              sobre seguros en Miami
             </h2>
             <p className="text-sm sm:text-base text-slate-600 leading-relaxed">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean
-              commodo ligula eget dolor. Aenean massa. Cum sociis natoque
-              penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean
-              commodo ligula eget dolor. Aenean massa. Cum sociis natoque
-              penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+              Si estás buscando seguro de salud, vida, dental, auto o cobertura
+              para gastos finales, aquí respondemos dudas comunes de nuestros
+              clientes en Miami, Florida.
             </p>
           </div>
 
@@ -40,7 +37,7 @@ const Section6 = () => {
                 className="border border-slate-200 border-b-0 rounded-xl px-5 shadow-sm"
               >
                 <AccordionTrigger className="group text-base font-semibold text-slate-900 [&>svg]:hidden">
-                  <span>Discovery Call</span>
+                  <span>¿Qué tipo de seguro necesito?</span>
                   <span className="ml-auto text-lg text-slate-500 group-data-[state=open]:hidden">
                     +
                   </span>
@@ -49,10 +46,9 @@ const Section6 = () => {
                   </span>
                 </AccordionTrigger>
                 <AccordionContent className="text-sm text-slate-600 leading-relaxed">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                  Quisque vel quam venenatis, posuere turpis vitae, aliquam
-                  nisi. Sed magna eros, sodales id efficitur sed, vestibulum id
-                  quam. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  Depende de tus metas y situación actual. Evaluamos tu perfil,
+                  presupuesto y prioridades para recomendar coberturas de salud,
+                  vida, auto, dental o gastos finales que sí te aporten valor.
                 </AccordionContent>
               </AccordionItem>
 
@@ -61,7 +57,7 @@ const Section6 = () => {
                 className="border border-slate-200 border-b-0 rounded-xl px-5 shadow-sm"
               >
                 <AccordionTrigger className="group text-base font-semibold text-slate-900 [&>svg]:hidden">
-                  <span>Review</span>
+                  <span>¿Pueden ayudarme en español?</span>
                   <span className="ml-auto text-lg text-slate-500 group-data-[state=open]:hidden">
                     +
                   </span>
@@ -70,8 +66,9 @@ const Section6 = () => {
                   </span>
                 </AccordionTrigger>
                 <AccordionContent className="text-sm text-slate-600 leading-relaxed">
-                  We review goals, budgets, and timelines to align on the next
-                  steps before moving into the process.
+                  Sí. Atendemos clientes en español e inglés para que entiendas
+                  claramente tus opciones, costos, beneficios y exclusiones
+                  antes de tomar una decisión.
                 </AccordionContent>
               </AccordionItem>
 
@@ -80,7 +77,7 @@ const Section6 = () => {
                 className="border border-slate-200 border-b-0 rounded-xl px-5 shadow-sm"
               >
                 <AccordionTrigger className="group text-base font-semibold text-slate-900 [&>svg]:hidden">
-                  <span>Implementation</span>
+                  <span>¿Cuánto tarda el proceso?</span>
                   <span className="ml-auto text-lg text-slate-500 group-data-[state=open]:hidden">
                     +
                   </span>
@@ -89,8 +86,9 @@ const Section6 = () => {
                   </span>
                 </AccordionTrigger>
                 <AccordionContent className="text-sm text-slate-600 leading-relaxed">
-                  A structured plan is delivered with milestones, deliverables,
-                  and accountability for consistent progress.
+                  En muchos casos puedes recibir opciones el mismo día. Nuestro
+                  objetivo es simplificar el proceso para que tengas cobertura
+                  activa lo antes posible.
                 </AccordionContent>
               </AccordionItem>
 
@@ -99,7 +97,7 @@ const Section6 = () => {
                 className="border border-slate-200 rounded-xl px-5 shadow-sm"
               >
                 <AccordionTrigger className="group text-base font-semibold text-slate-900 [&>svg]:hidden">
-                  <span>Teamwork</span>
+                  <span>¿Atienden en toda el área de Miami?</span>
                   <span className="ml-auto text-lg text-slate-500 group-data-[state=open]:hidden">
                     +
                   </span>
@@ -108,8 +106,9 @@ const Section6 = () => {
                   </span>
                 </AccordionTrigger>
                 <AccordionContent className="text-sm text-slate-600 leading-relaxed">
-                  Collaboration keeps the process transparent, efficient, and
-                  aligned with your priorities.
+                  Sí. Trabajamos con clientes en Miami y zonas cercanas,
+                  ofreciendo asesoría personalizada por teléfono, correo o cita
+                  directa según tu preferencia.
                 </AccordionContent>
               </AccordionItem>
             </Accordion>

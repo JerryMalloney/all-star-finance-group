@@ -11,11 +11,12 @@ const Hero = () => {
             <div className="bg-brand-primary h-2 w-full mb-2"></div>
             <div className="space-y-4  bg-white text-black p-12">
               <h1 className="text-4xl  md:text-4xl font-semibold ">
-                Lorem ipsum dolor sit amet,Lorem ipsum dolor sit
+                All Start Finance Group LLC: Seguros confiables en Miami, FL
               </h1>
               <p className=" text-lg ">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque
-                vel quam venenatis, posuere turpis vitae, aliquam nisi.
+                Protege tu salud, tu familia, tu auto y tu futuro con asesoría
+                personalizada. Ayudamos a clientes en Miami a elegir coberturas
+                claras, accesibles y adaptadas a su presupuesto.
               </p>
               <EmailForm />
             </div>

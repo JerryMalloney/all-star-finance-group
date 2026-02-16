@@ -9,15 +9,16 @@ const Section2 = () => {
           <div className="space-y-4">
             <div className="h-1 w-20 bg-blue-900" />
             <h2 className="text-3xl sm:text-4xl font-semibold text-slate-900">
-              Lorem ipsum dolor
+              Servicios de seguros
               <br />
-              sit amet
+              diseñados para Miami
             </h2>
           </div>
           <p className="text-sm sm:text-base text-slate-500 leading-relaxed">
-            Check out our best service you can possibly orders in building your
-            company and don&apos;t forget to ask via our email or our customer
-            service if you are interested in using our services
+            Desde planes individuales hasta protección para familias y
+            negocios, te ayudamos a comparar opciones y tomar decisiones con
+            confianza. Respuesta rápida, atención bilingüe y acompañamiento
+            cercano.
           </p>
         </div>
 
@@ -33,11 +34,11 @@ const Section2 = () => {
               />
             </div>
             <h3 className="text-lg font-semibold text-slate-800">
-              Lorem Impsu
+              Seguro de Salud
             </h3>
             <p className="text-sm text-slate-500 leading-relaxed">
-              Industrial development is our main line of business. We do Factory
-              Construction, Warehouse and others
+              Te orientamos para elegir cobertura médica adecuada para ti y tu
+              familia en Miami, con opciones claras y accesibles.
             </p>
           </div>
 
@@ -52,11 +53,11 @@ const Section2 = () => {
               />
             </div>
             <h3 className="text-lg font-semibold text-slate-800">
-              Lorem Impsu
+              Seguros de Vida y Gastos Finales
             </h3>
             <p className="text-sm text-slate-500 leading-relaxed">
-              Our experience building in the Commercial field includes
-              Showrooms, Supermalls and Office Buildings
+              Protege el bienestar financiero de tus seres queridos con pólizas
+              que se ajustan a tu etapa de vida y presupuesto.
             </p>
           </div>
 
@@ -71,11 +72,11 @@ const Section2 = () => {
               />
             </div>
             <h3 className="text-lg font-semibold text-slate-800">
-              Lorem Impsu
+              Seguros de Automóviles
             </h3>
             <p className="text-sm text-slate-500 leading-relaxed">
-              Residential development is the beginning that has shaped us to
-              this day. Our development includes Houses &amp; Apartments
+              Obtén ayuda para encontrar cobertura de auto confiable en Miami,
+              con opciones competitivas y soporte personalizado.
             </p>
           </div>
         </div>

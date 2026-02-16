@@ -10,17 +10,17 @@ const Section1 = () => {
           <div className="bg-brand-primary lg:bg-transparent rounded-md p-8 lg:p-12">
             <div className="max-w-md space-y-5 text-slate-900">
               <h2 className="text-3xl sm:text-4xl font-semibold leading-tight">
-                Lorem ipsum dolor
+                Cobertura de seguros
                 <br />
-                sit amet
+                para Miami y sus alrededores
               </h2>
               <p className="text-sm sm:text-base text-slate-800/80">
-                Perumnas cluster housing is the right choice for those of you
-                who are looking for comfortable, safe and affordable housing.
-                With the cluster concept
+                Trabajamos contigo para encontrar planes de salud, vida,
+                accidente, dental y automóviles que realmente se ajusten a tus
+                necesidades. Nuestro equipo local te guía paso a paso.
               </p>
               <button className="inline-flex items-center justify-center  bg-brand-secondary px-6 py-3 text-sm font-semibold text-white transition hover:bg-blue-800">
-                Asesoria
+                Solicitar asesoría
               </button>
             </div>
           </div>

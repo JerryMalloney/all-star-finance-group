@@ -6,26 +6,26 @@ const Section5 = () => {
   const testimonials = useMemo(
     () => [
       {
-        name: "Kyle Roberts DVM",
-        title: "Customer Web Consultant",
+        name: "Laura M.",
+        title: "Cliente en Miami",
         message:
-          "Website design did exactly what you said it does. Just what I was looking for. Nice work on your website design.",
+          "Me ayudaron a encontrar un plan de salud para mi familia en poco tiempo. Explicaron todo con claridad y sin presión.",
         rating: 5,
         image: "/section1.jpg",
       },
       {
-        name: "Eleanor Burton",
-        title: "Home Buyer",
+        name: "Carlos R.",
+        title: "Dueño de negocio",
         message:
-          "The team was responsive and clear about every step. The options felt curated and affordable.",
+          "Necesitaba proteger mi negocio y mi auto comercial. El equipo fue rápido, profesional y muy atento.",
         rating: 5,
         image: "/section1.jpg",
       },
       {
-        name: "Marcus Silva",
-        title: "Mortgage Advisor",
+        name: "Ana P.",
+        title: "Cliente de seguros de vida",
         message:
-          "Professional guidance, transparent pricing, and quick follow-ups. Highly recommended.",
+          "Recibí orientación para elegir seguro de vida y gastos finales. Excelente servicio en español.",
         rating: 4,
         image: "/section1.jpg",
       },
@@ -125,17 +125,16 @@ const Section5 = () => {
           <div className="rounded-2xl bg-[#f2b705] px-6 py-10 lg:bg-transparent lg:px-12">
             <div className="max-w-md space-y-5 text-slate-900">
               <h2 className="text-3xl sm:text-4xl font-semibold leading-tight text-slate-900">
-                Lorem ipsum dolor
+                Clientes en Miami
                 <br />
-                sit amet
+                recomiendan nuestro servicio
               </h2>
               <p className="text-sm sm:text-base text-slate-800/80">
-                Perumnas cluster housing is the right choice for those of you
-                who are looking for comfortable, safe and affordable housing.
-                With the cluster concept
+                Nuestro compromiso es ayudarte a asegurar lo que más importa:
+                tu salud, tu familia, tus finanzas y tu tranquilidad.
               </p>
               <button className="inline-flex items-center justify-center rounded-md bg-[#0b146e] px-6 py-3 text-sm font-semibold text-white transition hover:bg-[#0b146e]/90">
-                Asesoria
+                Hablar con un asesor
               </button>
             </div>
           </div>

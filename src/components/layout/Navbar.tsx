@@ -128,7 +128,13 @@ const Navbar = () => {
             className="group inline-flex items-center gap-1 text-sm font-medium text-white transition hover:text-brand-primary"
             href="/services"
           >
-            Services
+            Seguros
+          </Link>
+          <Link
+            className="group inline-flex items-center gap-1 text-sm font-medium text-white transition hover:text-brand-primary"
+            href="/impuestos"
+          >
+            Impuestos
           </Link>
           <Link
             className="text-sm font-medium text-white transition hover:text-brand-primary"

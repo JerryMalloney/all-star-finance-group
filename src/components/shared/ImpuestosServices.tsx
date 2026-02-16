@@ -54,7 +54,7 @@ const ImpuestosServices = () => {
                   <div className="flex h-14 w-14 items-center justify-center rounded-full border-4 border-yellow-200 bg-yellow-500">
                     <span className="text-3xl font-bold text-white">+</span>
                   </div>
-                  <h3 className="text-base font-semibold text-slate-800">
+                  <h3 className="text-base flex-1 font-semibold text-slate-800">
                     {card.title}
                   </h3>
                 </div>

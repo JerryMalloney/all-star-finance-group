@@ -130,12 +130,12 @@ const Navbar = () => {
           >
             Services
           </Link>
-          <a
+          <Link
             className="text-sm font-medium text-white transition hover:text-brand-primary"
-            href="mailto:example@example.com"
+            href="/contact"
           >
-            Contacts
-          </a>
+            Contact
+          </Link>
         </nav>
 
         <button

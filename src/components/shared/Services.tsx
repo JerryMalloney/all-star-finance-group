@@ -5,7 +5,7 @@ const cards = [
   {
     title: "Seguros de Salud",
     description:
-      "Opciones de cobertura médica para individuos y familias en Miami, con acompañamiento para elegir el plan correcto.",
+      "Opciones de cobertura médica para individuos y familias en Estados Unidos, con acompañamiento para elegir el plan correcto.",
     href: "/services/seguros-de-salud",
   },
   {
@@ -35,7 +35,7 @@ const cards = [
   {
     title: "Seguros de Automoviles",
     description:
-      "Encuentra pólizas de auto en Miami con cobertura confiable, precios competitivos y asesoría clara.",
+      "Encuentra pólizas de auto en USA con cobertura confiable, precios competitivos y asesoría clara, incluyendo atención en Miami.",
     href: "/services/seguros-de-automoviles",
   },
   {

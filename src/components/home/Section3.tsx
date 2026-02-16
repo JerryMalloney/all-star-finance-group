@@ -47,12 +47,13 @@ const Section3 = () => {
                     <p className="text-3xl font-semibold">25</p>
                     <p className="text-sm text-white/90">Años</p>
                   </div>
-                  <p className="text-lg text-white/90 font-bold">Sirviendo Miami</p>
+                  <p className="text-lg text-white/90 font-bold">Sirviendo USA</p>
                 </div>
                 <p className="text-sm text-white/90 leading-relaxed lg:flex-1">
                   En All Start Finance Group LLC evaluamos tus necesidades,
                   comparamos coberturas y te explicamos cada opción para que
-                  elijas el seguro adecuado sin complicaciones.
+                  elijas el seguro adecuado sin complicaciones en todo Estados
+                  Unidos, con presencia local en Miami.
                 </p>
               </div>
             </div>

@@ -12,12 +12,13 @@ const Section1 = () => {
               <h2 className="text-3xl sm:text-4xl font-semibold leading-tight">
                 Cobertura de seguros
                 <br />
-                para Miami y sus alrededores
+                para Estados Unidos
               </h2>
               <p className="text-sm sm:text-base text-slate-800/80">
                 Trabajamos contigo para encontrar planes de salud, vida,
                 accidente, dental y automóviles que realmente se ajusten a tus
-                necesidades. Nuestro equipo local te guía paso a paso.
+                necesidades. Nuestro equipo te guía paso a paso desde cualquier
+                estado, con atención cercana desde nuestra base en Miami.
               </p>
               <button className="inline-flex items-center justify-center  bg-brand-secondary px-6 py-3 text-sm font-semibold text-white transition hover:bg-blue-800">
                 Solicitar asesoría

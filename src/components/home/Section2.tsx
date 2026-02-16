@@ -11,14 +11,14 @@ const Section2 = () => {
             <h2 className="text-3xl sm:text-4xl font-semibold text-slate-900">
               Servicios de seguros
               <br />
-              diseñados para Miami
+              para todo USA
             </h2>
           </div>
           <p className="text-sm sm:text-base text-slate-500 leading-relaxed">
             Desde planes individuales hasta protección para familias y
             negocios, te ayudamos a comparar opciones y tomar decisiones con
             confianza. Respuesta rápida, atención bilingüe y acompañamiento
-            cercano.
+            cercano en todo Estados Unidos.
           </p>
         </div>
 
@@ -38,7 +38,7 @@ const Section2 = () => {
             </h3>
             <p className="text-sm text-slate-500 leading-relaxed">
               Te orientamos para elegir cobertura médica adecuada para ti y tu
-              familia en Miami, con opciones claras y accesibles.
+              familia en Estados Unidos, con opciones claras y accesibles.
             </p>
           </div>
 
@@ -75,8 +75,9 @@ const Section2 = () => {
               Seguros de Automóviles
             </h3>
             <p className="text-sm text-slate-500 leading-relaxed">
-              Obtén ayuda para encontrar cobertura de auto confiable en Miami,
-              con opciones competitivas y soporte personalizado.
+              Obtén ayuda para encontrar cobertura de auto confiable en USA,
+              con opciones competitivas y soporte personalizado, incluyendo
+              clientes en Miami.
             </p>
           </div>
         </div>

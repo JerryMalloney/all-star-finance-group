@@ -125,13 +125,14 @@ const Section5 = () => {
           <div className="rounded-2xl bg-[#f2b705] px-6 py-10 lg:bg-transparent lg:px-12">
             <div className="max-w-md space-y-5 text-slate-900">
               <h2 className="text-3xl sm:text-4xl font-semibold leading-tight text-slate-900">
-                Clientes en Miami
+                Clientes en USA
                 <br />
                 recomiendan nuestro servicio
               </h2>
               <p className="text-sm sm:text-base text-slate-800/80">
                 Nuestro compromiso es ayudarte a asegurar lo que más importa:
-                tu salud, tu familia, tus finanzas y tu tranquilidad.
+                tu salud, tu familia, tus finanzas y tu tranquilidad, desde
+                Miami hasta el resto del país.
               </p>
               <button className="inline-flex items-center justify-center rounded-md bg-[#0b146e] px-6 py-3 text-sm font-semibold text-white transition hover:bg-[#0b146e]/90">
                 Hablar con un asesor

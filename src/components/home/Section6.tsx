@@ -16,12 +16,12 @@ const Section6 = () => {
             <h2 className="text-3xl sm:text-4xl font-semibold text-slate-900 leading-tight">
               Preguntas frecuentes
               <br />
-              sobre seguros en Miami
+              sobre seguros en USA
             </h2>
             <p className="text-sm sm:text-base text-slate-600 leading-relaxed">
               Si estás buscando seguro de salud, vida, dental, auto o cobertura
               para gastos finales, aquí respondemos dudas comunes de nuestros
-              clientes en Miami, Florida.
+              clientes en Estados Unidos, incluyendo Miami, Florida.
             </p>
           </div>
 
@@ -97,7 +97,7 @@ const Section6 = () => {
                 className="border border-slate-200 rounded-xl px-5 shadow-sm"
               >
                 <AccordionTrigger className="group text-base font-semibold text-slate-900 [&>svg]:hidden">
-                  <span>¿Atienden en toda el área de Miami?</span>
+                  <span>¿Atienden en todo Estados Unidos?</span>
                   <span className="ml-auto text-lg text-slate-500 group-data-[state=open]:hidden">
                     +
                   </span>
@@ -106,9 +106,9 @@ const Section6 = () => {
                   </span>
                 </AccordionTrigger>
                 <AccordionContent className="text-sm text-slate-600 leading-relaxed">
-                  Sí. Trabajamos con clientes en Miami y zonas cercanas,
+                  Sí. Trabajamos con clientes en todo Estados Unidos,
                   ofreciendo asesoría personalizada por teléfono, correo o cita
-                  directa según tu preferencia.
+                  directa según tu preferencia, con base en Miami.
                 </AccordionContent>
               </AccordionItem>
             </Accordion>

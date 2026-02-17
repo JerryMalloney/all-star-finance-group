@@ -15,7 +15,7 @@ const cards = [
     href: "/services/poliza-de-seguros-suplementarios",
   },
   {
-    title: "Seguros de Vida y Gastos Finales",
+    title: "Seguros de Vida",
     description:
       "Protege a tu familia en el futuro con pólizas de vida y gastos finales adaptadas a tu presupuesto.",
     href: "/services/seguros-de-vida-y-gastos-finales",

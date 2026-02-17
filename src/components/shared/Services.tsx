@@ -71,7 +71,7 @@ const Services = () => {
             <Link
               key={card.title}
               href={card.href}
-              className="group block  bg-white shadow-[0_10px_30px_rgba(0,0,0,0.12)] transition hover:-translate-y-1"
+              className="group block flex flex-col justify-between  bg-white shadow-[0_10px_30px_rgba(0,0,0,0.12)] transition hover:-translate-y-1"
             >
               <div className="p-6">
                 <div className="flex items-center gap-4">

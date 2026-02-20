@@ -1,3 +1,4 @@
+import type { Metadata } from "next";
 import Hero from "@/components/services/service/Home";
 import Section1 from "@/components/services/service/Section1";
 import Section2 from "@/components/services/service/Section2";
@@ -5,105 +6,131 @@ import Section3 from "@/components/services/service/Section3";
 import Cta from "@/components/shared/Cta";
 import React from "react";
 
-const page = () => {
+export const metadata: Metadata = {
+  title:
+    "Seguros de Automóviles en Estados Unidos | All Start Finance Group LLC",
+  description:
+    "Encuentra seguros de automóviles en Estados Unidos con coberturas claras y precios competitivos. Asesoría personalizada para elegir la póliza ideal según tu vehículo y presupuesto.",
+  keywords: [
+    "seguro de auto en estados unidos",
+    "seguros de automóviles",
+    "póliza de carro para latinos",
+    "cobertura full coverage auto",
+    "aseguradora de autos en miami",
+    "all start finance group llc",
+  ],
+  alternates: {
+    canonical: "/services/seguros-de-automoviles",
+  },
+  openGraph: {
+    title:
+      "Seguros de Automóviles en Estados Unidos | All Start Finance Group LLC",
+    description:
+      "Te ayudamos a comparar coberturas de auto y elegir una póliza confiable para conducir con tranquilidad.",
+    type: "website",
+    url: "/services/seguros-de-automoviles",
+    locale: "en_US",
+  },
+};
+
+const Page = () => {
   return (
     <div>
       <Hero
-        imgAlt="Hero Image"
-        imgSrc="/hero2.jpg"
+        imgAlt="Asesoría en seguros de automóviles en Estados Unidos"
+        imgSrc="/automovil.jpg"
         content={
           <>
             <h1 className="text-4xl  md:text-4xl font-semibold ">
-              Lorem ipsum dolor sit amet,Lorem ipsum dolor sit
+              Seguros de Automóviles
             </h1>
             <p className=" text-lg ">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque
-              vel quam venenatis, posuere turpis vitae, aliquam nisi.
+              Protege tu vehículo y tu tranquilidad con una póliza diseñada para
+              tu realidad, tu presupuesto y tu forma de conducir en Estados
+              Unidos.
             </p>
           </>
         }
       />
       <Section1
-        imgAlt="Hero Image"
-        imgSrc="/hero.png"
+        imgAlt="Coberturas de seguro de auto"
+        imgSrc="/automovil2.jpg"
         title={
           <h2 className="text-4xl font-bold leading-tight  sm:text-5xl">
-            Lorem ipsum dolor
-            <br />
-            sit amet
+            ¿Qué cubre un seguro de auto?
           </h2>
         }
         description={
           <p className="text-lg leading-relaxed ">
-            Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean
-            commodo ligula eget dolor. Aenean massa. Cum sociis natoque
-            penatibus et magnis dis parturient montes, nascetur ridiculus
-            mus.Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean
-            commodo ligula eget dolor. Aenean massa.
+            Dependiendo del plan, puedes tener cobertura de responsabilidad
+            civil, daños a tu vehículo, robo, colisión, gastos médicos y
+            protección frente a conductores no asegurados. Te explicamos cada
+            opción de forma simple para que elijas una póliza útil y acorde a
+            tus necesidades.
           </p>
         }
       />
       <Section2
-        imgAlt="Section Image"
-        imgSrc="/hero.png"
+        imgAlt="Comparación de pólizas de automóviles"
+        imgSrc="/hero4.jpg"
         content={
           <>
             <h2 className="text-3xl sm:text-4xl font-semibold leading-tight">
-              Lorem ipsum dolor
-              <br />
-              sit amet
+              ¿Cómo elegir la mejor póliza?
             </h2>
             <p className="text-sm sm:text-base text-slate-800/80">
-              Perumnas cluster housing is the right choice for those of you who
-              are looking for comfortable, safe and affordable housing. With the
-              cluster concept
+              Analizamos tu historial de manejo, tipo de vehículo, uso diario y
+              presupuesto para comparar opciones reales del mercado. Así
+              encuentras una cobertura equilibrada entre protección, costo
+              mensual y beneficios importantes para ti.
             </p>
           </>
         }
       />
       <Section1
-        imgAlt="Another Image"
-        imgSrc="/hero.png"
+        imgAlt="Mariela Linares asesora de seguros de automóviles"
+        imgSrc="/mariela1.jpg"
         title={
           <h2 className="text-4xl font-bold leading-tight  sm:text-5xl">
-            Lorem ipsum dolor
-            <br />
-            sit amet
+            Acompañamiento profesional y cercano
           </h2>
         }
         description={
           <p className="text-lg leading-relaxed ">
-            Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean
-            commodo ligula eget dolor. Aenean massa. Cum sociis natoque
-            penatibus et magnis dis parturient montes, nascetur ridiculus
-            mus.Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean
-            commodo ligula eget dolor. Aenean massa.
+            En All Star Finance Group te ayudamos a entender términos,
+            coberturas y condiciones para que tomes decisiones informadas.
+            Nuestro objetivo es que conduzcas con seguridad, respaldo y la
+            confianza de tener la protección adecuada.
           </p>
         }
       />
       <Section3
         faqs={[
           {
-            question: "What is your return policy?",
-            answer: "Our return policy is 30 days.",
+            question:
+              "¿Qué cobertura mínima necesito para conducir en EE. UU.?",
+            answer:
+              "Depende del estado donde resides, ya que cada uno establece requisitos mínimos de responsabilidad civil. Te orientamos según tu ubicación.",
           },
           {
-            question: "Do you offer technical support?",
-            answer: "Yes, we offer 24/7 technical support.",
+            question: "¿Puedo asegurar un auto si es mi primera póliza?",
+            answer:
+              "Sí. Existen opciones para nuevos conductores o personas sin historial previo en seguros. Comparamos alternativas para encontrar la mejor opción.",
           },
           {
-            question: "Where are you located?",
-            answer: "We are located in New York City.",
+            question: "¿Cómo puedo bajar el costo mensual del seguro de auto?",
+            answer:
+              "El precio puede mejorar ajustando deducibles, coberturas y descuentos disponibles. Revisamos tu perfil para optimizar costo y protección.",
           },
         ]}
         content={
           <>
             <h2 className="text-3xl sm:text-4xl font-semibold leading-tight">
-              Frequently Asked Questions
+              Preguntas frecuentes sobre seguros de auto
             </h2>
             <p className="text-sm sm:text-base text-slate-800/80">
-              Here are some of out FAQs. If you have any other quesitons
-              you&apos;d like answered please feel free to email us.
+              Resuelve tus dudas principales para elegir una póliza de
+              automóviles con mayor claridad y confianza.
             </p>
           </>
         }
@@ -113,4 +140,4 @@ const page = () => {
   );
 };
 
-export default page;
+export default Page;

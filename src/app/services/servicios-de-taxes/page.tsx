@@ -1,3 +1,4 @@
+import type { Metadata } from "next";
 import Hero from "@/components/services/service/Home";
 import Section1 from "@/components/services/service/Section1";
 import Section2 from "@/components/services/service/Section2";
@@ -5,105 +6,126 @@ import Section3 from "@/components/services/service/Section3";
 import Cta from "@/components/shared/Cta";
 import React from "react";
 
-const page = () => {
+export const metadata: Metadata = {
+  title: "Servicios de Taxes en Estados Unidos | All Start Finance Group LLC",
+  description:
+    "Recibe asesoría profesional en servicios de taxes en Estados Unidos. Te ayudamos con preparación de impuestos, organización de documentos y cumplimiento fiscal con claridad y confianza.",
+  keywords: [
+    "servicios de taxes",
+    "preparación de impuestos en estados unidos",
+    "taxes para latinos",
+    "declaración de impuestos",
+    "asesoría fiscal en miami",
+    "all start finance group llc",
+  ],
+  alternates: {
+    canonical: "/services/servicios-de-taxes",
+  },
+  openGraph: {
+    title: "Servicios de Taxes en Estados Unidos | All Start Finance Group LLC",
+    description:
+      "Organiza tus impuestos con acompañamiento profesional y soluciones prácticas para personas y familias.",
+    type: "website",
+    url: "/services/servicios-de-taxes",
+    locale: "en_US",
+  },
+};
+
+const Page = () => {
   return (
     <div>
       <Hero
-        imgAlt="Hero Image"
-        imgSrc="/hero2.jpg"
+        imgAlt="Asesoría profesional en servicios de taxes"
+        imgSrc="/hero5.jpg"
         content={
           <>
             <h1 className="text-4xl  md:text-4xl font-semibold ">
-              Lorem ipsum dolor sit amet,Lorem ipsum dolor sit
+              Servicios de Taxes
             </h1>
             <p className=" text-lg ">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque
-              vel quam venenatis, posuere turpis vitae, aliquam nisi.
+              Simplificamos tu proceso de impuestos para que cumplas con
+              seguridad, orden y tranquilidad en cada temporada fiscal.
             </p>
           </>
         }
       />
       <Section1
-        imgAlt="Hero Image"
-        imgSrc="/hero.png"
+        imgAlt="Preparación de taxes en Estados Unidos"
+        imgSrc="/taxes1.jpg"
         title={
           <h2 className="text-4xl font-bold leading-tight  sm:text-5xl">
-            Lorem ipsum dolor
-            <br />
-            sit amet
+            ¿Qué incluyen nuestros servicios de taxes?
           </h2>
         }
         description={
           <p className="text-lg leading-relaxed ">
-            Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean
-            commodo ligula eget dolor. Aenean massa. Cum sociis natoque
-            penatibus et magnis dis parturient montes, nascetur ridiculus
-            mus.Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean
-            commodo ligula eget dolor. Aenean massa.
+            Te apoyamos en la preparación y revisión de tu declaración,
+            organización de documentos y orientación general para cumplir con
+            tus responsabilidades fiscales. Nuestro enfoque es claro,
+            profesional y adaptado a tu situación personal.
           </p>
         }
       />
       <Section2
-        imgAlt="Section Image"
-        imgSrc="/hero.png"
+        imgAlt="Asesoría para declaración de impuestos"
+        imgSrc="/taxes2.jpg"
         content={
           <>
             <h2 className="text-3xl sm:text-4xl font-semibold leading-tight">
-              Lorem ipsum dolor
-              <br />
-              sit amet
+              Acompañamiento paso a paso
             </h2>
             <p className="text-sm sm:text-base text-slate-800/80">
-              Perumnas cluster housing is the right choice for those of you who
-              are looking for comfortable, safe and affordable housing. With the
-              cluster concept
+              Te guiamos para entender fechas clave, requisitos y opciones
+              disponibles, minimizando errores comunes y mejorando tu proceso.
+              Queremos que presentes tus taxes con confianza y mayor control de
+              tu planificación financiera.
             </p>
           </>
         }
       />
       <Section1
-        imgAlt="Another Image"
-        imgSrc="/hero.png"
+        imgAlt="Planificación fiscal para familias"
+        imgSrc="/taxes3.jpg"
         title={
           <h2 className="text-4xl font-bold leading-tight  sm:text-5xl">
-            Lorem ipsum dolor
-            <br />
-            sit amet
+            Enfoque práctico y personalizado
           </h2>
         }
         description={
           <p className="text-lg leading-relaxed ">
-            Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean
-            commodo ligula eget dolor. Aenean massa. Cum sociis natoque
-            penatibus et magnis dis parturient montes, nascetur ridiculus
-            mus.Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean
-            commodo ligula eget dolor. Aenean massa.
+            Analizamos tu perfil para orientarte con soluciones fiscales
+            realistas y ordenadas. Ya sea que declares por primera vez o busques
+            mejorar tu proceso actual, nuestro equipo te acompaña con una
+            asesoría cercana y profesional.
           </p>
         }
       />
       <Section3
         faqs={[
           {
-            question: "What is your return policy?",
-            answer: "Our return policy is 30 days.",
+            question: "¿Qué documentos necesito para preparar mis taxes?",
+            answer:
+              "Normalmente se requieren formularios de ingresos, identificación y comprobantes de gastos aplicables. Te indicamos exactamente qué reunir según tu caso.",
           },
           {
-            question: "Do you offer technical support?",
-            answer: "Yes, we offer 24/7 technical support.",
+            question: "¿Puedo recibir ayuda si es mi primera declaración?",
+            answer:
+              "Sí, te guiamos en todo el proceso para que entiendas cada paso y presentes tu declaración con seguridad.",
           },
           {
-            question: "Where are you located?",
-            answer: "We are located in New York City.",
+            question: "¿Cómo evito errores comunes al declarar impuestos?",
+            answer:
+              "Con revisión previa, documentación ordenada y asesoría profesional. Nuestro objetivo es ayudarte a presentar información correcta y completa.",
           },
         ]}
         content={
           <>
             <h2 className="text-3xl sm:text-4xl font-semibold leading-tight">
-              Frequently Asked Questions
+              Preguntas frecuentes sobre servicios de taxes
             </h2>
             <p className="text-sm sm:text-base text-slate-800/80">
-              Here are some of out FAQs. If you have any other quesitons
-              you&apos;d like answered please feel free to email us.
+              Respondemos las dudas más comunes para que gestiones tus impuestos
+              con mayor claridad y tranquilidad.
             </p>
           </>
         }
@@ -113,4 +135,4 @@ const page = () => {
   );
 };
 
-export default page;
+export default Page;

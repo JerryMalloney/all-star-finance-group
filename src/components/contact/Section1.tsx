@@ -10,7 +10,9 @@ const Section1 = () => {
         <div className="">
           <div className="relative grid grid-cols-1 lg:grid-cols-2 gap-10 text-white">
             <div className="my-auto space-y-2 bg-brand-secondary lg:bg-none  p-10">
-              <h2 className="text-4xl font-semibold">Información de Contacto</h2>
+              <h2 className="text-4xl font-semibold">
+                Información de Contacto
+              </h2>
               <div className="text-lg">
                 <p className="font-bold">Correo electrónico:</p>
                 <p>

@@ -10,9 +10,9 @@ const Section1 = () => {
         <div className="">
           <div className="relative grid grid-cols-1 lg:grid-cols-2 gap-10 text-white">
             <div className="my-auto space-y-2 bg-brand-secondary lg:bg-none  p-10">
-              <h2 className="text-4xl font-semibold">Contact Information</h2>
+              <h2 className="text-4xl font-semibold">Información de Contacto</h2>
               <div className="text-lg">
-                <p className="font-bold">Email:</p>
+                <p className="font-bold">Correo electrónico:</p>
                 <p>
                   <a
                     href="mailto:lmariela1977@gmail.com"
@@ -23,7 +23,7 @@ const Section1 = () => {
                 </p>
               </div>
               <div className="text-lg">
-                <p className="font-bold">Phone:</p>
+                <p className="font-bold">Teléfono:</p>
                 <p>
                   <a
                     href="tel:+17866033503"
@@ -34,7 +34,7 @@ const Section1 = () => {
                 </p>
               </div>
               <div className="text-lg">
-                <p className="font-bold">Location:</p>
+                <p className="font-bold">Ubicación:</p>
                 <p>8095 NW 8TH ST MIAMI FLORIDA 33126</p>
               </div>
             </div>
@@ -43,12 +43,12 @@ const Section1 = () => {
 
               <div className="p-10 bg-brand-primary text-black space-y-5">
                 <h1 className="text-4xl  md:text-4xl font-semibold ">
-                  Lorem ipsum dolor sit amet,Lorem ipsum dolor sit
+                  Solicita tu asesoría personalizada
                 </h1>
                 <p className=" text-lg ">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                  Quisque vel quam venenatis, posuere turpis vitae, aliquam
-                  nisi.
+                  Completa el formulario y nuestro equipo se comunicará contigo
+                  para orientarte con opciones claras, accesibles y adaptadas a
+                  tus necesidades.
                 </p>
                 <EmailForm />
               </div>

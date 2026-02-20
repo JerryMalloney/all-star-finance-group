@@ -114,7 +114,7 @@ const Navbar = () => {
             className="text-sm font-medium text-white transition hover:text-brand-primary"
             href="/about"
           >
-            About us
+            Sobre Nosotros
           </Link>
           <Link
             className="group inline-flex items-center gap-1 text-sm font-medium text-white transition hover:text-brand-primary"

@@ -5,7 +5,7 @@ const Section3 = () => {
     <section className="relative overflow-hidden">
       <div
         className="absolute inset-0 bg-cover bg-center"
-        style={{ backgroundImage: "url('/hero.png')" }}
+        style={{ backgroundImage: "url('/hero4.jpg')" }}
       />
       <div className="absolute inset-0 bg-slate-900/60" />
 
@@ -47,7 +47,9 @@ const Section3 = () => {
                     <p className="text-3xl font-semibold">25</p>
                     <p className="text-sm text-white/90">Años</p>
                   </div>
-                  <p className="text-lg text-white/90 font-bold">Sirviendo USA</p>
+                  <p className="text-lg text-white/90 font-bold">
+                    Sirviendo USA
+                  </p>
                 </div>
                 <p className="text-sm text-white/90 leading-relaxed lg:flex-1">
                   En All Start Finance Group LLC evaluamos tus necesidades,

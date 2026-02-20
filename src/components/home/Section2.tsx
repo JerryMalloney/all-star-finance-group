@@ -15,10 +15,10 @@ const Section2 = () => {
             </h2>
           </div>
           <p className="text-sm sm:text-base text-slate-500 leading-relaxed">
-            Desde planes individuales hasta protección para familias y
-            negocios, te ayudamos a comparar opciones y tomar decisiones con
-            confianza. Respuesta rápida, atención bilingüe y acompañamiento
-            cercano en todo Estados Unidos.
+            Desde planes individuales hasta protección para familias y negocios,
+            te ayudamos a comparar opciones y tomar decisiones con confianza.
+            Respuesta rápida, atención bilingüe y acompañamiento cercano en todo
+            Estados Unidos.
           </p>
         </div>
 
@@ -27,10 +27,10 @@ const Section2 = () => {
             <div className="bg-white p-3 shadow-sm">
               <Image
                 alt="Consulting"
-                src="/hero.png"
+                src="/salud.jpg"
                 width={420}
                 height={280}
-                className="h-auto w-full object-cover"
+                className="h-auto w-full object-cover aspect-10/7"
               />
             </div>
             <h3 className="text-lg font-semibold text-slate-800">
@@ -46,10 +46,10 @@ const Section2 = () => {
             <div className="bg-white p-3 shadow-sm">
               <Image
                 alt="Advisory"
-                src="/mariela1.jpg"
+                src="/finales.jpg"
                 width={420}
                 height={280}
-                className="h-auto w-full object-cover"
+                className="h-auto w-full object-cover aspect-10/7"
               />
             </div>
             <h3 className="text-lg font-semibold text-slate-800">
@@ -65,19 +65,19 @@ const Section2 = () => {
             <div className="bg-white p-3 shadow-sm">
               <Image
                 alt="Planning"
-                src="/section1.jpg"
+                src="/automovil.jpg"
                 width={420}
                 height={280}
-                className="h-auto w-full object-cover"
+                className="h-auto w-full object-cover aspect-10/7"
               />
             </div>
             <h3 className="text-lg font-semibold text-slate-800">
               Seguros de Automóviles
             </h3>
             <p className="text-sm text-slate-500 leading-relaxed">
-              Obtén ayuda para encontrar cobertura de auto confiable en USA,
-              con opciones competitivas y soporte personalizado, incluyendo
-              clientes en Miami.
+              Obtén ayuda para encontrar cobertura de auto confiable en USA, con
+              opciones competitivas y soporte personalizado, incluyendo clientes
+              en Miami.
             </p>
           </div>
         </div>

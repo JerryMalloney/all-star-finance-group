@@ -17,8 +17,8 @@ const cards = [
   {
     title: "Seguros de Vida",
     description:
-      "Protege a tu familia en el futuro con pólizas de vida y gastos finales adaptadas a tu presupuesto.",
-    href: "/services/seguros-de-vida-y-gastos-finales",
+      "Protege el futuro económico de tu familia con pólizas de vida adaptadas a tu presupuesto y objetivos.",
+    href: "/services/seguros-de-vida",
   },
   {
     title: "Seguros de Accidente",
@@ -47,8 +47,8 @@ const cards = [
   {
     title: "Gastos Finales",
     description:
-      "Prepara hoy la tranquilidad de mañana con soluciones de gastos finales pensadas para tu familia.",
-    href: "/services/gastos-finales",
+      "Cobertura diseñada para gastos finales y respaldo económico familiar en momentos importantes.",
+    href: "/services/seguros-gastos-finales",
   },
 ];
 

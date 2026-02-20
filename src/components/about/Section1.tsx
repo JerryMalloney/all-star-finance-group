@@ -4,31 +4,31 @@ import { Briefcase, Clock3, ShieldCheck, Tag } from "lucide-react";
 
 const features = [
   {
-    id: "business",
-    title: "Lorem Impsu",
+    id: "confianza",
+    title: "Confianza",
     description:
-      "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum .",
+      "Construimos relaciones basadas en credibilidad, cercanía y respeto en cada asesoría.",
     icon: Briefcase,
   },
   {
-    id: "pricing",
-    title: "Lorem Impsu",
+    id: "transparencia",
+    title: "Transparencia",
     description:
-      "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum .",
+      "Explicamos cada opción de forma clara y honesta, sin letras pequeñas ni procesos confusos.",
     icon: Tag,
   },
   {
-    id: "speed",
-    title: "Lorem Impsu",
+    id: "educacion",
+    title: "Educación",
     description:
-      "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum .",
+      "Creemos que la información es poder y que todas las personas merecen entender su cobertura.",
     icon: Clock3,
   },
   {
-    id: "security",
-    title: "Lorem Impsu",
+    id: "comunidad",
+    title: "Comunidad",
     description:
-      "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum .",
+      "Trabajamos con compromiso real porque también somos parte de la comunidad latina en EE. UU.",
     icon: ShieldCheck,
   },
 ];
@@ -40,24 +40,30 @@ const Section1 = () => {
         <div className="grid grid-cols-1 items-center gap-10 lg:grid-cols-2 lg:gap-16">
           <div className="max-w-xl space-y-6">
             <h2 className="text-4xl font-bold leading-tight  sm:text-5xl">
-              Lorem ipsum dolor
-              <br />
-              sit amet
+              Nuestra misión y visión
             </h2>
             <div className="h-2 w-58 bg-brand-secondary" />
             <p className="text-lg leading-relaxed ">
-              Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean
-              commodo ligula eget dolor. Aenean massa. Cum sociis natoque
-              penatibus et magnis dis parturient montes, nascetur ridiculus
-              mus.Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
-              Aenean commodo ligula eget dolor. Aenean massa.
+              Nuestra misión es demostrar que sí existen opciones claras,
+              accesibles y confiables para proteger lo más valioso: la salud, la
+              familia y el futuro. Nuestra visión es convertirnos en un
+              referente nacional en asesoría de seguros, reconocido por la
+              confianza, la transparencia y el compromiso con la comunidad
+              latina en los Estados Unidos.
+            </p>
+            <p className="text-lg leading-relaxed ">
+              Mariela Linares, fundadora y asesora de seguros, lidera este
+              proyecto con experiencia, profesionalismo y un genuino deseo de
+              ayudar. Como latina, conoce de primera mano los retos de la
+              comunidad hispana y acompaña a cada familia con soluciones
+              personalizadas y cercanas.
             </p>
           </div>
 
           <div>
             <Image
               src="/mariela1.jpg"
-              alt="Team member"
+              alt="Mariela Linares, fundadora y asesora de seguros"
               width={960}
               height={620}
               className="h-auto w-full object-cover"

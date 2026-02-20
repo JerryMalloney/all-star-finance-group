@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 import React from "react";
 
 const Cta = () => {
@@ -17,18 +18,18 @@ const Cta = () => {
           <div className="text-center">
             <div className="space-y-5 p-6 text-white md:p-8">
               <h2 className="text-3xl font-semibold leading-tight md:text-4xl">
-                Lorem ipsum dolor
-                <br />
-                sit amet
+                Protege lo que más importa
               </h2>
               <p className="text-base leading-relaxed md:text-lg">
-                Perumnas cluster housing is the right choice for those of you
-                who are looking for comfortable, safe and affordable housing.
-                With the cluster concept
+                Recibe asesoría personalizada para elegir el seguro ideal para
+                tu salud, tu familia y tu futuro en Estados Unidos.
               </p>
-              <button className="inline-flex items-center justify-center bg-brand-primary px-6 py-3 text-sm font-semibold text-white transition hover:bg-brand-primary/90">
-                Contact Us
-              </button>
+              <Link
+                href="/contact"
+                className="inline-flex items-center justify-center bg-brand-primary px-6 py-3 text-sm font-semibold text-white transition hover:bg-brand-primary/90"
+              >
+                Contáctanos hoy
+              </Link>
             </div>
           </div>
         </div>

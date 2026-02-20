@@ -4,7 +4,7 @@ const Hero = () => {
   return (
     <div className="relative">
       <Image
-        alt=""
+        alt="Servicios de seguros y asesoría para familias en Estados Unidos"
         fill
         src={"/hero2.jpg"}
         className="object-cover object-[25%_40%]"
@@ -14,11 +14,13 @@ const Hero = () => {
           <div className="max-w-xl ml-auto">
             <div className="space-y-4 border-l-6 border-brand-primary  text-white p-6">
               <h1 className="text-4xl  md:text-4xl font-semibold ">
-                Lorem ipsum dolor sit amet,Lorem ipsum dolor sit
+                Nuestros Servicios
               </h1>
               <p className=" text-lg ">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque
-                vel quam venenatis, posuere turpis vitae, aliquam nisi.
+                Te ayudamos a encontrar soluciones claras y personalizadas en
+                seguros de salud, vida, dental, automóviles y más, con
+                acompañamiento profesional para proteger tu familia y tu futuro
+                en Estados Unidos.
               </p>
             </div>
           </div>

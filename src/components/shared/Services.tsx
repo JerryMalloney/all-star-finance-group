@@ -8,6 +8,7 @@ const cards = [
       "Opciones de cobertura médica para individuos y familias en Estados Unidos, con acompañamiento para elegir el plan correcto.",
     href: "/services/seguros-de-salud",
   },
+
   {
     title: "Poliza de Seguros Suplementarios",
     description:
@@ -15,16 +16,17 @@ const cards = [
     href: "/services/poliza-de-seguros-suplementarios",
   },
   {
-    title: "Seguros de Vida",
-    description:
-      "Protege el futuro económico de tu familia con pólizas de vida adaptadas a tu presupuesto y objetivos.",
-    href: "/services/seguros-de-vida",
-  },
-  {
     title: "Seguros de Accidente",
     description:
       "Cobertura para imprevistos y lesiones accidentales, ideal para reforzar tu seguridad financiera.",
     href: "/services/seguros-de-accidente",
+  },
+
+  {
+    title: "Seguros de Automoviles",
+    description:
+      "Encuentra pólizas de auto en USA con cobertura confiable, precios competitivos y asesoría clara, incluyendo atención en Miami.",
+    href: "/services/seguros-de-automoviles",
   },
   {
     title: "Seguros Dentales",
@@ -32,11 +34,12 @@ const cards = [
       "Planes dentales para cuidado preventivo y tratamientos, con alternativas para adultos y familias.",
     href: "/services/seguros-dentales",
   },
+
   {
-    title: "Seguros de Automoviles",
+    title: "Gastos Finales",
     description:
-      "Encuentra pólizas de auto en USA con cobertura confiable, precios competitivos y asesoría clara, incluyendo atención en Miami.",
-    href: "/services/seguros-de-automoviles",
+      "Cobertura diseñada para gastos finales y respaldo económico familiar en momentos importantes.",
+    href: "/services/seguros-gastos-finales",
   },
   {
     title: "Servicios de Taxes",
@@ -45,10 +48,10 @@ const cards = [
     href: "/services/servicios-de-taxes",
   },
   {
-    title: "Gastos Finales",
+    title: "Seguros de Vida",
     description:
-      "Cobertura diseñada para gastos finales y respaldo económico familiar en momentos importantes.",
-    href: "/services/seguros-gastos-finales",
+      "Protege el futuro económico de tu familia con pólizas de vida adaptadas a tu presupuesto y objetivos.",
+    href: "/services/seguros-de-vida",
   },
 ];
 

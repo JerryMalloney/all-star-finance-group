@@ -92,7 +92,7 @@ const Page = () => {
       />
       <Section1
         imgAlt="Mariela Linares asesora de seguros de vida"
-        imgSrc="/mariela1.jpg"
+        imgSrc="/mariela2.png"
         title={
           <h2 className="text-4xl font-bold leading-tight  sm:text-5xl">
             Acompañamiento personalizado

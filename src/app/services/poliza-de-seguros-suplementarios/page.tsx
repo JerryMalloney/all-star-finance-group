@@ -89,7 +89,7 @@ const Page = () => {
       />
       <Section1
         imgAlt="Mariela Linares asesora en seguros suplementarios"
-        imgSrc="/mariela1.jpg"
+        imgSrc="/mariela2.png"
         title={
           <h2 className="text-4xl font-bold leading-tight  sm:text-5xl">
             Asesoría personalizada con Mariela Linares

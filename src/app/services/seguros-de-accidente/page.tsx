@@ -85,7 +85,7 @@ const Page = () => {
       />
       <Section1
         imgAlt="Mariela Linares asesora de seguros de accidente"
-        imgSrc="/mariela1.jpg"
+        imgSrc="/mariela3.png"
         title={
           <h2 className="text-4xl font-bold leading-tight  sm:text-5xl">
             Asesoría personalizada para tu cobertura

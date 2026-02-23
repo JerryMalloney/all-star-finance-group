@@ -76,9 +76,16 @@ const Page = () => {
             </h2>
             <p className="text-sm sm:text-base text-slate-800/80">
               Un seguro de vida fortalece tu planificación financiera y protege
-              a tu familia frente a escenarios inesperados. Puede apoyar en
-              gastos del hogar, educación de hijos, pago de deudas o metas a
-              largo plazo, según la cobertura que elijas.
+              a tu familia frente a escenarios inesperados. Además de brindar
+              protección, algunas pólizas permanentes pueden ayudarte a
+              construir ahorro con valor en efectivo y darte acceso a recursos
+              para metas futuras, como educación, retiro o proyectos personales,
+              según las condiciones del plan. En productos como el IUL (Indexed
+              Universal Life), el valor en efectivo puede crecer con interés
+              acreditado en función de índices de mercado, sujeto a límites,
+              costos y reglas de la póliza. Te orientamos para elegir una opción
+              clara, sostenible y alineada con tus objetivos a corto y largo
+              plazo.
             </p>
           </>
         }
@@ -116,6 +123,11 @@ const Page = () => {
             question: "¿Puedo obtener una póliza si tengo condiciones médicas?",
             answer:
               "Sí, existen opciones según tu perfil y la aseguradora. Evaluamos alternativas para encontrar una cobertura adecuada a tu situación.",
+          },
+          {
+            question: "¿Qué es un IUL y cómo funciona para ahorro a futuro?",
+            answer:
+              "El IUL (Indexed Universal Life) es un tipo de seguro de vida permanente que combina protección con acumulación de valor en efectivo. Ese valor puede crecer con interés vinculado al desempeño de índices, bajo parámetros de la póliza como topes, piso, cargos y costos. En ciertos casos, permite acceso a efectivo en el futuro, por ejemplo mediante préstamos o retiros, de acuerdo con las condiciones del contrato.",
           },
         ]}
         content={

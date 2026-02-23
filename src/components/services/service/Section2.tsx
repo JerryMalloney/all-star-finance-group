@@ -27,7 +27,7 @@ const Section2 = ({
             </div>
           </div>
           <div className="bg-brand-primary lg:bg-transparent rounded-md p-8 lg:p-12">
-            <div className="max-w-md space-y-5 text-slate-900">
+            <div className="max-w-xl space-y-5 text-slate-900">
               {content}
               <button className="inline-flex items-center justify-center  bg-brand-secondary px-6 py-3 text-sm font-semibold text-white transition hover:bg-blue-800">
                 Contactanos

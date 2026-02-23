@@ -15,9 +15,9 @@ const Hero = () => {
               </h1>
               <p className=" text-lg ">
                 Protege tu salud, tu familia, tu auto y tu futuro con asesoría
-                personalizada. Ayudamos a clientes en todo Estados Unidos,
-                incluyendo Miami, a elegir coberturas claras, accesibles y
-                adaptadas a su presupuesto.
+                personalizada. Ofrecemos pólizas de seguro a nivel nacional en
+                todo Estados Unidos, con sede en Miami, para ayudarte a elegir
+                coberturas claras, accesibles y adaptadas a tu presupuesto.
               </p>
               <EmailForm />
             </div>

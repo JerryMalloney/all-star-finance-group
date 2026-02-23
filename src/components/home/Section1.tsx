@@ -10,15 +10,15 @@ const Section1 = () => {
           <div className="bg-brand-primary lg:bg-transparent rounded-md p-8 lg:p-12">
             <div className="max-w-md space-y-5 text-slate-900">
               <h2 className="text-3xl sm:text-4xl font-semibold leading-tight">
-                Cobertura de seguros
-                <br />
-                para Estados Unidos
+                Pólizas de seguro
+                <br />a nivel nacional en USA
               </h2>
               <p className="text-sm sm:text-base text-slate-800/80">
                 Trabajamos contigo para encontrar planes de salud, vida,
                 accidente, dental y automóviles que realmente se ajusten a tus
-                necesidades. Nuestro equipo te guía paso a paso desde cualquier
-                estado, con atención cercana desde nuestra base en Miami.
+                necesidades. Nuestro equipo te guía paso a paso en cualquier
+                estado, con atención cercana y profesional desde nuestra sede en
+                Miami.
               </p>
               <button className="inline-flex items-center justify-center  bg-brand-secondary px-6 py-3 text-sm font-semibold text-white transition hover:bg-blue-800">
                 Solicitar asesoría

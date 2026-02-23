@@ -10,7 +10,7 @@ import Services from "@/components/shared/Services";
 export const metadata: Metadata = {
   title: "All Start Finance Group LLC | Seguros en USA",
   description:
-    "All Start Finance Group LLC ayuda a familias y negocios en Estados Unidos con seguros de salud, vida, dental, automóviles y gastos finales. Asesoría personalizada en español e inglés, con base en Miami.",
+    "All Start Finance Group LLC ofrece pólizas de seguro a nivel nacional en Estados Unidos para familias y negocios. Asesoría personalizada en español e inglés, con sede en Miami.",
   keywords: [
     "seguros en usa",
     "agencia de seguros usa",
@@ -27,7 +27,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "All Start Finance Group LLC | Seguros en USA",
     description:
-      "Cobertura de seguros para individuos, familias y negocios en Estados Unidos. Planes claros, atención rápida y acompañamiento personalizado.",
+      "Pólizas de seguro a nivel nacional para individuos, familias y negocios en Estados Unidos, con atención personalizada desde nuestra sede en Miami.",
     type: "website",
     url: "/",
     locale: "en_US",

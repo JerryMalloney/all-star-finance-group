@@ -1,3 +1,4 @@
+import type { Metadata } from "next";
 import Hero from "@/components/services/service/Home";
 import Section1 from "@/components/services/service/Section1";
 import Section2 from "@/components/services/service/Section2";
@@ -5,105 +6,127 @@ import Section3 from "@/components/services/service/Section3";
 import Cta from "@/components/shared/Cta";
 import React from "react";
 
-const page = () => {
+export const metadata: Metadata = {
+  title:
+    "Contabilidad de Corporaciones en Estados Unidos | All Start Finance Group LLC",
+  description:
+    "Servicio de contabilidad corporativa para mantener tus finanzas organizadas, cumplir con obligaciones fiscales y mejorar la toma de decisiones de tu empresa.",
+  keywords: [
+    "contabilidad de corporaciones",
+    "bookkeeping para empresas",
+    "contabilidad empresarial en estados unidos",
+    "servicios contables",
+    "all star finance group llc",
+  ],
+  alternates: {
+    canonical: "/impuestos/contabilidad-de-corporaciones",
+  },
+  openGraph: {
+    title:
+      "Contabilidad de Corporaciones en Estados Unidos | All Start Finance Group LLC",
+    description:
+      "Organiza ingresos, gastos y reportes de tu empresa con apoyo contable profesional y acompañamiento continuo.",
+    type: "website",
+    url: "/impuestos/contabilidad-de-corporaciones",
+    locale: "en_US",
+  },
+};
+
+const Page = () => {
   return (
     <div>
       <Hero
-        imgAlt="Hero Image"
-        imgSrc="/hero2.jpg"
+        imgAlt="Contabilidad de corporaciones en Estados Unidos"
+        imgSrc="/taxes5.jpg"
         content={
           <>
             <h1 className="text-4xl  md:text-4xl font-semibold ">
-              Lorem ipsum dolor sit amet,Lorem ipsum dolor sit
+              Contabilidad de Corporaciones
             </h1>
             <p className=" text-lg ">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque
-              vel quam venenatis, posuere turpis vitae, aliquam nisi.
+              Mantén la salud financiera de tu empresa con registros claros,
+              reportes confiables y procesos contables bien estructurados.
             </p>
           </>
         }
       />
       <Section1
-        imgAlt="Hero Image"
-        imgSrc="/hero.png"
+        imgAlt="Gestión contable para empresas"
+        imgSrc="/taxes4.jpg"
         title={
           <h2 className="text-4xl font-bold leading-tight  sm:text-5xl">
-            Lorem ipsum dolor
-            <br />
-            sit amet
+            ¿Qué cubre la contabilidad corporativa?
           </h2>
         }
         description={
           <p className="text-lg leading-relaxed ">
-            Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean
-            commodo ligula eget dolor. Aenean massa. Cum sociis natoque
-            penatibus et magnis dis parturient montes, nascetur ridiculus
-            mus.Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean
-            commodo ligula eget dolor. Aenean massa.
+            Gestionamos el registro ordenado de ingresos y gastos, conciliación
+            bancaria, clasificación de transacciones y reportes periódicos para
+            que conozcas el desempeño real de tu negocio y tomes decisiones con
+            información actualizada.
           </p>
         }
       />
       <Section2
-        imgAlt="Section Image"
-        imgSrc="/hero.png"
+        imgAlt="Beneficios de una contabilidad organizada"
+        imgSrc="/taxes6.jpg"
         content={
           <>
             <h2 className="text-3xl sm:text-4xl font-semibold leading-tight">
-              Lorem ipsum dolor
-              <br />
-              sit amet
+              Ventajas de llevar tu contabilidad al día
             </h2>
             <p className="text-sm sm:text-base text-slate-800/80">
-              Perumnas cluster housing is the right choice for those of you who
-              are looking for comfortable, safe and affordable housing. With the
-              cluster concept
+              Una contabilidad consistente facilita la preparación de impuestos,
+              mejora el control de flujo de efectivo y reduce riesgos de errores
+              administrativos. También te permite planificar crecimiento con una
+              base financiera sólida.
             </p>
           </>
         }
       />
       <Section1
-        imgAlt="Another Image"
-        imgSrc="/hero.png"
+        imgAlt="Asesoría contable personalizada"
+        imgSrc="/mariela2.png"
         title={
           <h2 className="text-4xl font-bold leading-tight  sm:text-5xl">
-            Lorem ipsum dolor
-            <br />
-            sit amet
+            Soporte contable según tu operación
           </h2>
         }
         description={
           <p className="text-lg leading-relaxed ">
-            Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean
-            commodo ligula eget dolor. Aenean massa. Cum sociis natoque
-            penatibus et magnis dis parturient montes, nascetur ridiculus
-            mus.Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean
-            commodo ligula eget dolor. Aenean massa.
+            Adaptamos el servicio al tamaño y ritmo de tu empresa. En All Star
+            Finance Group te acompañamos con comunicación clara y seguimiento
+            constante para que tu contabilidad respalde tus metas de negocio.
           </p>
         }
       />
       <Section3
         faqs={[
           {
-            question: "What is your return policy?",
-            answer: "Our return policy is 30 days.",
+            question: "¿Cada cuánto debo actualizar mi contabilidad?",
+            answer:
+              "Lo ideal es mantenerla actualizada de forma mensual para tener visibilidad real del negocio y evitar acumulación de trabajo al cierre fiscal.",
           },
           {
-            question: "Do you offer technical support?",
-            answer: "Yes, we offer 24/7 technical support.",
+            question: "¿La contabilidad corporativa ayuda con mis impuestos?",
+            answer:
+              "Sí. Una contabilidad bien organizada simplifica la preparación de impuestos y mejora la precisión de la información reportada.",
           },
           {
-            question: "Where are you located?",
-            answer: "We are located in New York City.",
+            question:
+              "¿Puedo recibir asesoría si mi empresa está en otro estado?",
+            answer:
+              "Sí, brindamos atención remota para empresas en distintos estados de Estados Unidos, con acompañamiento profesional en cada etapa.",
           },
         ]}
         content={
           <>
             <h2 className="text-3xl sm:text-4xl font-semibold leading-tight">
-              Frequently Asked Questions
+              Preguntas frecuentes de contabilidad corporativa
             </h2>
             <p className="text-sm sm:text-base text-slate-800/80">
-              Here are some of out FAQs. If you have any other quesitons
-              you&apos;d like answered please feel free to email us.
+              Responde tus dudas sobre control financiero, reportes y
+              cumplimiento contable para tu empresa.
             </p>
           </>
         }
@@ -113,4 +136,4 @@ const page = () => {
   );
 };
 
-export default page;
+export default Page;

@@ -5,25 +5,25 @@ const cards = [
   {
     title: "Impuestos IRS",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum.",
+      "Prepara y presenta tu declaración con orientación profesional para cumplir con el IRS y reducir errores.",
     href: "/impuestos/impuestos-irs",
   },
   {
     title: "Contabilidad de Corporaciones",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum.",
+      "Organiza ingresos, gastos y reportes de tu empresa con un servicio contable claro y consistente.",
     href: "/impuestos/contabilidad-de-corporaciones",
   },
   {
     title: "Nuevas Corporaciones",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum.",
+      "Inicia tu negocio con apoyo en registro, estructura y cumplimiento para operar con bases sólidas.",
     href: "/impuestos/nuevas-corporaciones",
   },
   {
     title: "Enmiendas, Reanudar, Cambio de Nombre de Corporaciones",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum.",
+      "Actualiza y regulariza tu corporación con procesos ordenados para mantener tu empresa activa y al día.",
     href: "/impuestos/enmiendas-reanudar-cambio-de-nombre-de-corporaciones",
   },
 ];
@@ -34,7 +34,7 @@ const ImpuestosServices = () => {
       <div className="container mx-auto px-4 py-16 lg:py-24">
         <div className="text-center space-y-2">
           <p className="text-sm font-semibold tracking-widest text-blue-900">
-            Services
+            Impuestos
           </p>
           <h2 className="text-2xl sm:text-4xl font-bold text-slate-800">
             SERVICIOS DE IMPUESTOS

@@ -112,7 +112,7 @@ const EmailForm = ({ className = "" }: EmailFormProps) => {
           <input
             className="block w-full  border rounded shadow py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white bg-white text-black"
             id="fullName"
-            placeholder="Full Name"
+            placeholder="Nombre completo"
             type="text"
             {...register("fullName")}
           />
@@ -122,7 +122,7 @@ const EmailForm = ({ className = "" }: EmailFormProps) => {
           <input
             className="block w-full  border rounded shadow py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white bg-white text-black"
             id="phone"
-            placeholder="Phone"
+            placeholder="Telefono"
             type="text"
             {...register("phone")}
           />
@@ -136,7 +136,7 @@ const EmailForm = ({ className = "" }: EmailFormProps) => {
             {...register("state")}
           >
             <option value="" disabled>
-              State
+              Estado
             </option>
             {usaStates.map((state) => (
               <option key={state} value={state}>
@@ -154,7 +154,7 @@ const EmailForm = ({ className = "" }: EmailFormProps) => {
             {...register("services")}
           >
             <option value="" disabled>
-              Services
+              Servicio
             </option>
             <option value="migracion">Migracion</option>
             <option value="seguros">Seguros</option>
@@ -165,7 +165,7 @@ const EmailForm = ({ className = "" }: EmailFormProps) => {
         <div className="lg:col-span-2">
           <textarea
             className=" block w-full   border rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white bg-white text-black shadow"
-            placeholder="Message"
+            placeholder="Mensaje"
             id="message"
             rows={5}
             {...register("message")}
@@ -177,7 +177,7 @@ const EmailForm = ({ className = "" }: EmailFormProps) => {
         className="hover:cursor-pointer w-full bg-brand-secondary rounded-md inline-block px-4 py-3 text-sm text-white hover:scale-105 transition hover:shadow-lg"
         type="submit"
       >
-        Submit
+        Enviar
       </button>
     </form>
   );

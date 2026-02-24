@@ -62,7 +62,7 @@ const Navbar = () => {
             <a
               className="transition hover:text-white"
               href="https://x.com"
-              aria-label="Twitter"
+              aria-label="Twitter (X)"
             >
               <svg className="h-4 w-4" viewBox="0 0 24 24" fill="currentColor">
                 <path d="M17.53 3.5h2.74l-6 6.86L21 20.5h-5.2l-4.07-5.03L6.6 20.5H3.85l6.42-7.34L3 3.5h5.33l3.68 4.6 5.52-4.6Zm-.96 15.46h1.52L7.6 4.91H6.02l10.55 14.05Z" />
@@ -103,12 +103,15 @@ const Navbar = () => {
           />
         </Link>
 
-        <nav aria-label="Primary" className="hidden items-center gap-8 md:flex">
+        <nav
+          aria-label="Principal"
+          className="hidden items-center gap-8 md:flex"
+        >
           <Link
             className="text-sm font-medium text-white transition hover:text-brand-primary"
             href="/"
           >
-            Home
+            Inicio
           </Link>
           <Link
             className="text-sm font-medium text-white transition hover:text-brand-primary"
@@ -132,7 +135,7 @@ const Navbar = () => {
             className="text-sm font-medium text-white transition hover:text-brand-primary"
             href="/contact"
           >
-            Contact
+            Contacto
           </Link>
         </nav>
 
@@ -141,7 +144,7 @@ const Navbar = () => {
             <button
               className="inline-flex items-center justify-center rounded-md border border-white/30 p-2 text-white transition hover:border-brand-primary hover:text-brand-primary md:hidden"
               type="button"
-              aria-label="Open menu"
+              aria-label="Abrir menú"
             >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -164,15 +167,15 @@ const Navbar = () => {
             className="border-zinc-200 bg-white text-zinc-900"
             side="right"
           >
-            <SheetTitle className="sr-only">Mobile menu</SheetTitle>
+            <SheetTitle className="sr-only">Menú móvil</SheetTitle>
             <div className="mt-10 flex h-full flex-col gap-6 px-2 pb-6">
-              <nav aria-label="Mobile" className="flex flex-col gap-2">
+              <nav aria-label="Móvil" className="flex flex-col gap-2">
                 <SheetClose asChild>
                   <Link
                     className="rounded-md px-3 py-2 text-base font-medium transition hover:bg-brand-primary/10 hover:text-brand-primary"
                     href="/"
                   >
-                    Home
+                    Inicio
                   </Link>
                 </SheetClose>
                 <SheetClose asChild>
@@ -180,7 +183,7 @@ const Navbar = () => {
                     className="rounded-md px-3 py-2 text-base font-medium transition hover:bg-brand-primary/10 hover:text-brand-primary"
                     href="/about"
                   >
-                    About us
+                    Sobre Nosotros
                   </Link>
                 </SheetClose>
                 <SheetClose asChild>
@@ -204,7 +207,7 @@ const Navbar = () => {
                     className="rounded-md px-3 py-2 text-base font-medium transition hover:bg-brand-primary/10 hover:text-brand-primary"
                     href="/contact"
                   >
-                    Contact
+                    Contacto
                   </Link>
                 </SheetClose>
               </nav>
@@ -213,11 +216,11 @@ const Navbar = () => {
 
               <div className="space-y-3 rounded-lg border border-zinc-200 bg-zinc-50 p-3 text-sm text-zinc-700">
                 <div>
-                  <p className="font-semibold text-zinc-900">Location</p>
+                  <p className="font-semibold text-zinc-900">Ubicación</p>
                   <p>8095 NW 8TH ST MIAMI FLORIDA 33126</p>
                 </div>
                 <div>
-                  <p className="font-semibold text-zinc-900">Phone</p>
+                  <p className="font-semibold text-zinc-900">Teléfono</p>
                   <a
                     className="transition hover:text-brand-primary"
                     href="tel:+17866033503"
@@ -226,7 +229,9 @@ const Navbar = () => {
                   </a>
                 </div>
                 <div>
-                  <p className="font-semibold text-zinc-900">Email</p>
+                  <p className="font-semibold text-zinc-900">
+                    Correo electrónico
+                  </p>
                   <a
                     className="transition hover:text-brand-primary"
                     href="mailto:lmariela1977@gmail.com"

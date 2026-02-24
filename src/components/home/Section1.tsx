@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 import React from "react";
 
 const Section1 = () => {
@@ -20,9 +21,12 @@ const Section1 = () => {
                 estado, con atención cercana y profesional desde nuestra sede en
                 Miami.
               </p>
-              <button className="inline-flex items-center justify-center  bg-brand-secondary px-6 py-3 text-sm font-semibold text-white transition hover:bg-blue-800">
+              <Link
+                href="/contact"
+                className="inline-flex items-center justify-center  bg-brand-secondary px-6 py-3 text-sm font-semibold text-white transition hover:bg-blue-800"
+              >
                 Solicitar asesoría
-              </button>
+              </Link>
             </div>
           </div>
           <div className="relative flex justify-center lg:justify-end">

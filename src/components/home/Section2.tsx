@@ -10,15 +10,13 @@ const Section2 = () => {
             <div className="h-1 w-20 bg-blue-900" />
             <h2 className="text-3xl sm:text-4xl font-semibold text-slate-900">
               Servicios de seguros
-              <br />
-              para todo USA
             </h2>
           </div>
           <p className="text-sm sm:text-base text-slate-500 leading-relaxed">
             Desde planes individuales hasta protección para familias y negocios,
-            te ayudamos a comparar opciones y tomar decisiones con confianza.
-            Respuesta rápida, atención bilingüe y acompañamiento cercano en todo
-            Estados Unidos.
+            te ayudamos a comparar opciones y tomar decisiones con confianza
+            para todo Estados Unidos. Respuesta rápida, atención bilingüe y
+            acompañamiento cercano.
           </p>
         </div>
 
@@ -75,9 +73,9 @@ const Section2 = () => {
               Seguros de Automóviles
             </h3>
             <p className="text-sm text-slate-500 leading-relaxed">
-              Obtén ayuda para encontrar cobertura de auto confiable en USA, con
-              opciones competitivas y soporte personalizado, incluyendo clientes
-              en Miami.
+              Obtén ayuda para encontrar cobertura de auto confiable, con
+              opciones competitivas y soporte personalizado para clientes en
+              Estados Unidos, incluyendo Miami.
             </p>
           </div>
         </div>

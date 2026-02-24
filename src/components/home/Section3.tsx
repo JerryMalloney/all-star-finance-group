@@ -36,19 +36,19 @@ const Section3 = () => {
           </div>
 
           <div className="hidden lg:block w-full lg:ml-auto lg:max-w-2xl">
-            <div className=" bg-linear-to-r from-yellow-500 via-amber-500 to-teal-600 p-6 text-white shadow-lg">
+            <div className=" bg-linear-to-r from-brand-primary via-brand-secondary to-brand-secondary p-6 text-white shadow-lg">
               <div className="flex flex-col lg:flex-row items-center gap-5">
-                <div className="space-y-1">
+                <div className="">
                   <p className="text-sm">Asesoría</p>
                   <p className="text-lg font-semibold">Especializada</p>
                 </div>
                 <div className="">
                   <div className="flex items-center gap-1">
-                    <p className="text-3xl font-semibold">25</p>
+                    <p className="text-3xl font-semibold">6</p>
                     <p className="text-sm text-white/90">Años</p>
                   </div>
                   <p className="text-lg text-white/90 font-bold">
-                    Sirviendo USA
+                    Sirviendo familias
                   </p>
                 </div>
                 <p className="text-sm text-white/90 leading-relaxed lg:flex-1">

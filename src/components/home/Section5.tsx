@@ -125,7 +125,7 @@ const Section5 = () => {
           <div className="rounded-2xl bg-[#f2b705] px-6 py-10 lg:bg-transparent lg:px-12">
             <div className="max-w-md space-y-5 text-slate-900">
               <h2 className="text-3xl sm:text-4xl font-semibold leading-tight text-slate-900">
-                Clientes en USA
+                Clientes
                 <br />
                 recomiendan nuestro servicio
               </h2>

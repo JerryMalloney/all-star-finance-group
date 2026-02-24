@@ -16,7 +16,7 @@ const Section6 = () => {
             <h2 className="text-3xl sm:text-4xl font-semibold text-slate-900 leading-tight">
               Preguntas frecuentes
               <br />
-              sobre seguros en USA
+              sobre seguros
             </h2>
             <p className="text-sm sm:text-base text-slate-600 leading-relaxed">
               Si estás buscando seguro de salud, vida, dental, auto o cobertura
@@ -106,9 +106,9 @@ const Section6 = () => {
                   </span>
                 </AccordionTrigger>
                 <AccordionContent className="text-sm text-slate-600 leading-relaxed">
-                  Sí. Trabajamos con clientes en todo Estados Unidos,
-                  ofreciendo asesoría personalizada por teléfono, correo o cita
-                  directa según tu preferencia, con base en Miami.
+                  Sí. Trabajamos con clientes en todo Estados Unidos, ofreciendo
+                  asesoría personalizada por teléfono, correo o cita directa
+                  según tu preferencia, con base en Miami.
                 </AccordionContent>
               </AccordionItem>
             </Accordion>

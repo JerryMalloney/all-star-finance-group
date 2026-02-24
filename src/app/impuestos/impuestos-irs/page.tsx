@@ -39,11 +39,12 @@ const Page = () => {
         content={
           <>
             <h1 className="text-4xl  md:text-4xl font-semibold ">
-              Impuestos IRS en Estados Unidos
+              Impuestos IRS
             </h1>
             <p className=" text-lg ">
               Te ayudamos a preparar y presentar tu declaración con precisión,
-              cumplimiento y enfoque estratégico para proteger tus finanzas.
+              cumplimiento y enfoque estratégico para proteger tus finanzas en
+              Estados Unidos.
             </p>
           </>
         }

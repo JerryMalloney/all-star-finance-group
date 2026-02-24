@@ -39,11 +39,12 @@ const Page = () => {
         content={
           <>
             <h1 className="text-4xl  md:text-4xl font-semibold ">
-              Seguros de Salud en Estados Unidos
+              Seguros de Salud
             </h1>
             <p className=" text-lg ">
               Te acompañamos a elegir el plan médico que realmente se adapta a
-              tu presupuesto, tus necesidades y la protección de tu familia.
+              tu presupuesto, tus necesidades y la protección de tu familia en
+              Estados Unidos.
             </p>
           </>
         }

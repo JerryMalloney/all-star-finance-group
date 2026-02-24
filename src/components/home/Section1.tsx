@@ -11,7 +11,7 @@ const Section1 = () => {
             <div className="max-w-md space-y-5 text-slate-900">
               <h2 className="text-3xl sm:text-4xl font-semibold leading-tight">
                 Pólizas de seguro
-                <br />a nivel nacional en USA
+                <br />a nivel nacional
               </h2>
               <p className="text-sm sm:text-base text-slate-800/80">
                 Trabajamos contigo para encontrar planes de salud, vida,

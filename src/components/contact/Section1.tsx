@@ -44,9 +44,9 @@ const Section1 = () => {
               <div className="bg-brand-secondary h-2 w-full mb-2"></div>
 
               <div className="p-10 bg-brand-primary text-black space-y-5">
-                <h1 className="text-4xl  md:text-4xl font-semibold ">
+                <h2 className="text-4xl  md:text-4xl font-semibold ">
                   Solicita tu asesoría personalizada
-                </h1>
+                </h2>
                 <p className=" text-lg ">
                   Completa el formulario y nuestro equipo se comunicará contigo
                   para orientarte con opciones claras, accesibles y adaptadas a

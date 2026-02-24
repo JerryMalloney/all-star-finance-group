@@ -32,7 +32,7 @@ const Section1 = () => {
                 width={520}
                 height={420}
                 className="h-auto w-full max-w-130 object-cover"
-                src={"/section1.jpg"}
+                src={"/mariela5.jpeg"}
               />
             </div>
           </div>

@@ -52,7 +52,7 @@ const Section5 = () => {
           <div className="rounded-xl bg-[#0b146e] lg:bg-transparent px-6 py-10 lg:px-12">
             <div className="max-w-md">
               <div className="relative rounded-2xl bg-white p-6 shadow-2xl">
-                <div className="absolute -top-8 left-5 ">
+                {/* <div className="absolute -top-8 left-5 ">
                   <div className="relative h-16 w-16 overflow-hidden rounded-full">
                     <Image
                       alt={active.name}
@@ -61,7 +61,7 @@ const Section5 = () => {
                       src={active.image}
                     />
                   </div>
-                </div>
+                </div> */}
                 <div className="flex items-start justify-between gap-4 pt-4">
                   <div className="flex items-center gap-4">
                     <div>
@@ -130,9 +130,9 @@ const Section5 = () => {
                 recomiendan nuestro servicio
               </h2>
               <p className="text-sm sm:text-base text-slate-800/80">
-                Nuestro compromiso es ayudarte a asegurar lo que más importa:
-                tu salud, tu familia, tus finanzas y tu tranquilidad, desde
-                Miami hasta el resto del país.
+                Nuestro compromiso es ayudarte a asegurar lo que más importa: tu
+                salud, tu familia, tus finanzas y tu tranquilidad, desde Miami
+                hasta el resto del país.
               </p>
               <button className="inline-flex items-center justify-center rounded-md bg-[#0b146e] px-6 py-3 text-sm font-semibold text-white transition hover:bg-[#0b146e]/90">
                 Hablar con un asesor

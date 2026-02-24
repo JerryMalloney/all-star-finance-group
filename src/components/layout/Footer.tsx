@@ -2,8 +2,23 @@ import Image from "next/image";
 import Link from "next/link";
 import React from "react";
 
-const companyLinks = ["Home", "About us", "Seguros", "Impuestos", "Contact"];
-const moreLinks = ["Email us", "Call us", "Visit us"];
+const companyLinks = [
+  { label: "Inicio", href: "/" },
+  { label: "Sobre Nosotros", href: "/about" },
+  { label: "Seguros", href: "/services" },
+  { label: "Impuestos", href: "/impuestos" },
+  { label: "Contacto", href: "/contact" },
+];
+
+const quickLinks = [
+  { label: "Seguro de Salud", href: "/services/seguros-de-salud" },
+  { label: "Seguro de Vida", href: "/services/seguros-de-vida" },
+  { label: "Impuestos IRS", href: "/impuestos/impuestos-irs" },
+  {
+    label: "Contabilidad Corporativa",
+    href: "/impuestos/contabilidad-de-corporaciones",
+  },
+];
 
 const Footer = () => {
   return (
@@ -49,22 +64,12 @@ const Footer = () => {
               </h3>
               <ul className="mt-7 space-y-4">
                 {companyLinks.map((item) => (
-                  <li key={item}>
+                  <li key={item.label}>
                     <Link
-                      href={
-                        item === "Home"
-                          ? "/"
-                          : item === "About us"
-                          ? "/about"
-                          : item === "Seguros"
-                          ? "/services"
-                          : item === "Impuestos"
-                          ? "/impuestos"
-                          : "/contact"
-                      }
+                      href={item.href}
                       className="text-base text-white/80 transition hover:text-white"
                     >
-                      {item}
+                      {item.label}
                     </Link>
                   </li>
                 ))}
@@ -73,25 +78,17 @@ const Footer = () => {
 
             <div>
               <h3 className="text-xl font-semibold tracking-tight">
-                Contact
+                Quick Links
               </h3>
               <ul className="mt-7 space-y-4">
-                {moreLinks.map((item) => (
-                  <li key={item}>
-                    <a
-                      href={
-                        item === "Email us"
-                          ? "mailto:lmariela1977@gmail.com"
-                          : item === "Call us"
-                          ? "tel:+17866033503"
-                          : "https://maps.google.com/?q=8095+NW+8TH+ST+MIAMI+FLORIDA+33126"
-                      }
-                      target={item === "Visit us" ? "_blank" : undefined}
-                      rel={item === "Visit us" ? "noreferrer" : undefined}
+                {quickLinks.map((item) => (
+                  <li key={item.label}>
+                    <Link
+                      href={item.href}
                       className="text-base text-white/80 transition hover:text-white"
                     >
-                      {item}
-                    </a>
+                      {item.label}
+                    </Link>
                   </li>
                 ))}
               </ul>

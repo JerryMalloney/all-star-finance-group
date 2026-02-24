@@ -28,7 +28,7 @@ const Section1 = ({
               alt={imgAlt}
               width={960}
               height={620}
-              className="h-auto w-full object-cover"
+              className="h-auto w-full object-cover aspect-10/9"
             />
           </div>
         </div>

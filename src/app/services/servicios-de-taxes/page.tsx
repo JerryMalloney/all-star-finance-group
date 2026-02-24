@@ -85,7 +85,7 @@ const Page = () => {
       />
       <Section1
         imgAlt="Planificación fiscal para familias"
-        imgSrc="/taxes3.jpg"
+        imgSrc="/mariela8.jpeg"
         title={
           <h2 className="text-4xl font-bold leading-tight  sm:text-5xl">
             Enfoque práctico y personalizado

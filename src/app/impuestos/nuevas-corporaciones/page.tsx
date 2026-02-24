@@ -83,7 +83,7 @@ const Page = () => {
       />
       <Section1
         imgAlt="Asesoría para emprendedores"
-        imgSrc="/mariela3.png"
+        imgSrc="/mariela11.jpeg"
         title={
           <h2 className="text-4xl font-bold leading-tight  sm:text-5xl">
             Acompañamiento para emprender con confianza

@@ -86,7 +86,7 @@ const Page = () => {
       />
       <Section1
         imgAlt="Asesoría profesional para trámites corporativos"
-        imgSrc="/mariela4.png"
+        imgSrc="/mariela12.jpeg"
         title={
           <h2 className="text-4xl font-bold leading-tight  sm:text-5xl">
             Gestión profesional de principio a fin

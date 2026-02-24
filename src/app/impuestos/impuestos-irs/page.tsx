@@ -84,7 +84,7 @@ const Page = () => {
       />
       <Section1
         imgAlt="Acompañamiento personalizado en impuestos"
-        imgSrc="/mariela1.jpg"
+        imgSrc="/mariela9.jpeg"
         title={
           <h2 className="text-4xl font-bold leading-tight  sm:text-5xl">
             Acompañamiento claro en cada etapa

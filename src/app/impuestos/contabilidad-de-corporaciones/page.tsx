@@ -86,7 +86,7 @@ const Page = () => {
       />
       <Section1
         imgAlt="Asesoría contable personalizada"
-        imgSrc="/mariela2.png"
+        imgSrc="/mariela10.jpeg"
         title={
           <h2 className="text-4xl font-bold leading-tight  sm:text-5xl">
             Soporte contable según tu operación

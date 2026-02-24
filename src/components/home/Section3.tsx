@@ -28,7 +28,7 @@ const Section3 = () => {
             </div>
             <div>
               <p className="text-3xl font-semibold">
-                20<span className="text-brand-primary font-bold">+</span>
+                6<span className="text-brand-primary font-bold">+</span>
               </p>
               <p className="text-sm text-white/80">Años de</p>
               <p className="text-sm text-white/80">Experiencia</p>

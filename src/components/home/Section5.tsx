@@ -1,5 +1,6 @@
 "use client";
 import Image from "next/image";
+import Link from "next/link";
 import React, { useMemo, useState } from "react";
 
 const Section5 = () => {
@@ -134,9 +135,12 @@ const Section5 = () => {
                 salud, tu familia, tus finanzas y tu tranquilidad, desde Miami
                 hasta el resto del país.
               </p>
-              <button className="inline-flex items-center justify-center rounded-md bg-[#0b146e] px-6 py-3 text-sm font-semibold text-white transition hover:bg-[#0b146e]/90">
+              <Link
+                href="/contact"
+                className="inline-flex items-center justify-center rounded-md bg-[#0b146e] px-6 py-3 text-sm font-semibold text-white transition hover:bg-[#0b146e]/90"
+              >
                 Hablar con un asesor
-              </button>
+              </Link>
             </div>
           </div>
         </div>

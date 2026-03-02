@@ -4,6 +4,7 @@ import React, { useEffect, useState } from "react";
 import Image from "next/image";
 import Link from "next/link";
 import { FiMail, FiMapPin, FiPhone } from "react-icons/fi";
+import { FaFacebookF, FaInstagram } from "react-icons/fa";
 import {
   Sheet,
   SheetClose,
@@ -61,30 +62,17 @@ const Navbar = () => {
           <div className="flex items-center gap-3">
             <a
               className="transition hover:text-white"
-              href="https://x.com"
-              aria-label="Twitter (X)"
+              href="https://www.facebook.com/share/1GeDf8q1H6/?mibextid=wwXIfr"
+              aria-label="Facebook"
             >
-              <svg className="h-4 w-4" viewBox="0 0 24 24" fill="currentColor">
-                <path d="M17.53 3.5h2.74l-6 6.86L21 20.5h-5.2l-4.07-5.03L6.6 20.5H3.85l6.42-7.34L3 3.5h5.33l3.68 4.6 5.52-4.6Zm-.96 15.46h1.52L7.6 4.91H6.02l10.55 14.05Z" />
-              </svg>
+              <FaFacebookF className="h-4 w-4" />
             </a>
             <a
               className="transition hover:text-white"
-              href="https://instagram.com"
+              href="https://www.instagram.com/allstarfinancegroupllc?utm_source=qr&igsh=NTg3bjB3OGk2aGlj"
               aria-label="Instagram"
             >
-              <svg className="h-4 w-4" viewBox="0 0 24 24" fill="currentColor">
-                <path d="M7 3h10a4 4 0 0 1 4 4v10a4 4 0 0 1-4 4H7a4 4 0 0 1-4-4V7a4 4 0 0 1 4-4Zm10 2H7a2 2 0 0 0-2 2v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V7a2 2 0 0 0-2-2Zm-5 3.5A5.5 5.5 0 1 1 6.5 12 5.5 5.5 0 0 1 12 8.5Zm0 2A3.5 3.5 0 1 0 15.5 12 3.5 3.5 0 0 0 12 10.5Zm5.5-3.75a1.25 1.25 0 1 1-1.25 1.25 1.25 1.25 0 0 1 1.25-1.25Z" />
-              </svg>
-            </a>
-            <a
-              className="transition hover:text-white"
-              href="https://linkedin.com"
-              aria-label="LinkedIn"
-            >
-              <svg className="h-4 w-4" viewBox="0 0 24 24" fill="currentColor">
-                <path d="M6.94 8.5H3.5V20h3.44V8.5ZM5.22 3.5A2 2 0 1 0 5.2 7.5a2 2 0 0 0 .02-4ZM20.5 20h-3.4v-5.4c0-1.29-.03-2.95-1.8-2.95-1.8 0-2.08 1.41-2.08 2.86V20H9.8V8.5h3.27v1.57h.05c.45-.86 1.55-1.77 3.18-1.77 3.4 0 4.02 2.24 4.02 5.15V20Z" />
-              </svg>
+              <FaInstagram className="h-4 w-4" />
             </a>
           </div>
         </div>
@@ -244,42 +232,17 @@ const Navbar = () => {
               <div className="mt-auto flex items-center gap-2 pt-2">
                 <a
                   className="inline-flex h-10 w-10 items-center justify-center rounded-md border border-zinc-200 text-zinc-700 transition hover:border-brand-primary hover:text-brand-primary"
-                  href="https://x.com"
-                  aria-label="Twitter"
+                  href="https://www.facebook.com/share/1GeDf8q1H6/?mibextid=wwXIfr"
+                  aria-label="Facebook"
                 >
-                  <svg
-                    className="h-5 w-5"
-                    viewBox="0 0 24 24"
-                    fill="currentColor"
-                  >
-                    <path d="M17.53 3.5h2.74l-6 6.86L21 20.5h-5.2l-4.07-5.03L6.6 20.5H3.85l6.42-7.34L3 3.5h5.33l3.68 4.6 5.52-4.6Zm-.96 15.46h1.52L7.6 4.91H6.02l10.55 14.05Z" />
-                  </svg>
+                  <FaFacebookF className="h-5 w-5" />
                 </a>
                 <a
                   className="inline-flex h-10 w-10 items-center justify-center rounded-md border border-zinc-200 text-zinc-700 transition hover:border-brand-primary hover:text-brand-primary"
-                  href="https://instagram.com"
+                  href="https://www.instagram.com/allstarfinancegroupllc?utm_source=qr&igsh=NTg3bjB3OGk2aGlj"
                   aria-label="Instagram"
                 >
-                  <svg
-                    className="h-5 w-5"
-                    viewBox="0 0 24 24"
-                    fill="currentColor"
-                  >
-                    <path d="M7 3h10a4 4 0 0 1 4 4v10a4 4 0 0 1-4 4H7a4 4 0 0 1-4-4V7a4 4 0 0 1 4-4Zm10 2H7a2 2 0 0 0-2 2v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V7a2 2 0 0 0-2-2Zm-5 3.5A5.5 5.5 0 1 1 6.5 12 5.5 5.5 0 0 1 12 8.5Zm0 2A3.5 3.5 0 1 0 15.5 12 3.5 3.5 0 0 0 12 10.5Zm5.5-3.75a1.25 1.25 0 1 1-1.25 1.25 1.25 1.25 0 0 1 1.25-1.25Z" />
-                  </svg>
-                </a>
-                <a
-                  className="inline-flex h-10 w-10 items-center justify-center rounded-md border border-zinc-200 text-zinc-700 transition hover:border-brand-primary hover:text-brand-primary"
-                  href="https://linkedin.com"
-                  aria-label="LinkedIn"
-                >
-                  <svg
-                    className="h-5 w-5"
-                    viewBox="0 0 24 24"
-                    fill="currentColor"
-                  >
-                    <path d="M6.94 8.5H3.5V20h3.44V8.5ZM5.22 3.5A2 2 0 1 0 5.2 7.5a2 2 0 0 0 .02-4ZM20.5 20h-3.4v-5.4c0-1.29-.03-2.95-1.8-2.95-1.8 0-2.08 1.41-2.08 2.86V20H9.8V8.5h3.27v1.57h.05c.45-.86 1.55-1.77 3.18-1.77 3.4 0 4.02 2.24 4.02 5.15V20Z" />
-                  </svg>
+                  <FaInstagram className="h-5 w-5" />
                 </a>
               </div>
             </div>

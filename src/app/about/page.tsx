@@ -28,12 +28,6 @@ export const metadata: Metadata = {
     url: "/about",
     locale: "en_US",
   },
-  twitter: {
-    card: "summary_large_image",
-    title: "Sobre Nosotros | All Start Finance Group LLC",
-    description:
-      "Asesoría de seguros en español para familias latinas e inmigrantes en Estados Unidos.",
-  },
 };
 
 const Page = () => {

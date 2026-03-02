@@ -1,16 +1,17 @@
-import { GoogleMapsEmbed } from "@next/third-parties/google";
 import React from "react";
 
 const Section2 = () => {
   return (
     <div className="">
-      <GoogleMapsEmbed
-        apiKey={process.env.MAPKEY || ""}
-        height={500}
+      <iframe
+        src="https://www.google.com/maps?q=8095%20NW%208TH%20ST%20MIAMI%20FLORIDA%2033126&z=14&output=embed"
         width="100%"
-        mode="place"
-        zoom="14"
-        q="8095 NW 8TH ST MIAMI FLORIDA 33126"
+        height="500"
+        style={{ border: 0 }}
+        allowFullScreen
+        loading="lazy"
+        referrerPolicy="no-referrer-when-downgrade"
+        title="All Star Finance Group Location"
       />
     </div>
   );

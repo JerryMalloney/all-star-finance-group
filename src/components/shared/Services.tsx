@@ -8,6 +8,12 @@ const cards = [
       "Opciones de cobertura médica para individuos y familias en Estados Unidos, con acompañamiento para elegir el plan correcto.",
     href: "/services/seguros-de-salud",
   },
+  {
+    title: "Seguros de Medicare",
+    description:
+      "Asesoría clara para entender Medicare, comparar opciones de cobertura y elegir el plan que mejor se adapte a tu etapa de vida.",
+    href: "/services/seguros-de-medicare",
+  },
 
   {
     title: "Poliza de Seguros Suplementarios",

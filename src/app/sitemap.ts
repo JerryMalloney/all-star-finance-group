@@ -10,6 +10,7 @@ const routes = [
   "/services/poliza-de-seguros-suplementarios",
   "/services/seguros-de-accidente",
   "/services/seguros-de-automoviles",
+  "/services/seguros-de-medicare",
   "/services/seguros-de-salud",
   "/services/seguros-de-vida",
   "/services/seguros-dentales",

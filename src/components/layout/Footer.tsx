@@ -12,6 +12,7 @@ const companyLinks = [
 
 const quickLinks = [
   { label: "Seguro de Salud", href: "/services/seguros-de-salud" },
+  { label: "Seguro de Medicare", href: "/services/seguros-de-medicare" },
   { label: "Seguro de Vida", href: "/services/seguros-de-vida" },
   { label: "Impuestos IRS", href: "/impuestos/impuestos-irs" },
   {

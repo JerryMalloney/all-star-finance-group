@@ -16,10 +16,9 @@ const Section1 = () => {
               </h2>
               <p className="text-sm sm:text-base text-slate-800/80">
                 Trabajamos contigo para encontrar planes de salud, vida,
-                accidente, dental y automóviles que realmente se ajusten a tus
-                necesidades. Nuestro equipo te guía paso a paso en cualquier
-                estado, con atención cercana y profesional desde nuestra sede en
-                Miami.
+                accidente y dental que realmente se ajusten a tus necesidades.
+                Nuestro equipo te guía paso a paso en cualquier estado, con
+                atención cercana y profesional desde nuestra sede en Miami.
               </p>
               <Link
                 href="/contact"

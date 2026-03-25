@@ -29,12 +29,6 @@ const cards = [
   },
 
   {
-    title: "Seguros de Automoviles",
-    description:
-      "Encuentra pólizas de auto en USA con cobertura confiable, precios competitivos y asesoría clara, incluyendo atención en Miami.",
-    href: "/services/seguros-de-automoviles",
-  },
-  {
     title: "Seguros Dentales",
     description:
       "Planes dentales para cuidado preventivo y tratamientos, con alternativas para adultos y familias.",

@@ -62,22 +62,23 @@ const Section2 = () => {
           <div className="space-y-4">
             <div className="bg-white p-3 shadow-sm">
               <Image
-                alt="Planning"
-                src="/automovil.jpg"
+                alt="Dental coverage"
+                src="/dental1.jpg"
                 width={420}
                 height={280}
                 className="h-auto w-full object-cover aspect-10/7"
               />
             </div>
             <h3 className="text-lg font-semibold text-slate-800">
-              Seguros de Automóviles
+              Seguros Dentales
             </h3>
             <p className="text-sm text-slate-500 leading-relaxed">
-              Obtén ayuda para encontrar cobertura de auto confiable, con
-              opciones competitivas y soporte personalizado para clientes en
-              Estados Unidos, incluyendo Miami.
+              Encuentra planes dentales para prevención, limpiezas y
+              tratamientos con opciones claras para adultos y familias en
+              Estados Unidos.
             </p>
           </div>
+
         </div>
       </div>
     </section>

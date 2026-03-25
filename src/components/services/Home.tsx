@@ -18,9 +18,9 @@ const Hero = () => {
               </h1>
               <p className=" text-lg ">
                 Te ayudamos a encontrar soluciones claras y personalizadas en
-                seguros de salud, vida, dental, automóviles y más, con
-                acompañamiento profesional para proteger tu familia y tu futuro
-                en Estados Unidos.
+                seguros de salud, vida, dental y más, con acompañamiento
+                profesional para proteger tu familia y tu futuro en Estados
+                Unidos.
               </p>
             </div>
           </div>

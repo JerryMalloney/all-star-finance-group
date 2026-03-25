@@ -85,7 +85,7 @@ const Page = () => {
       />
       <Section1
         imgAlt="Asesoría profesional para seguros dentales"
-        imgSrc="/mariela3.png"
+        imgSrc="/mariela14.jpeg"
         title={
           <h2 className="text-4xl font-bold leading-tight  sm:text-5xl">
             Asesoría clara y personalizada

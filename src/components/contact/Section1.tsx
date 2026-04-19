@@ -17,10 +17,10 @@ const Section1 = () => {
                 <p className="font-bold">Correo electrónico:</p>
                 <p>
                   <a
-                    href="mailto:lmariela1977@gmail.com"
+                    href="mailto:allstarfinancegroupllc@gmail.com"
                     className="text-white transition hover:text-white/80"
                   >
-                    lmariela1977@gmail.com
+                    allstarfinancegroupllc@gmail.com
                   </a>
                 </p>
               </div>

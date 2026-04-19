@@ -45,9 +45,9 @@ const Footer = () => {
             <div className="space-y-2 text-sm text-white/80 sm:text-base">
               <a
                 className="block transition hover:text-white"
-                href="mailto:lmariela1977@gmail.com"
+                href="mailto:allstarfinancegroupllc@gmail.com"
               >
-                lmariela1977@gmail.com
+                allstarfinancegroupllc@gmail.com
               </a>
               <a
                 className="block transition hover:text-white"
